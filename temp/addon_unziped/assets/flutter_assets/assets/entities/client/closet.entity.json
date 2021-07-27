@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:closet",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "white": "textures/entity/furni/closet"
+      },
+      "geometry": {
+        "default": "geometry.closet"
+      },
+      "render_controllers": [ "controller.render.shulker" ],
+      "spawn_egg": {
+        "texture": "closet",
+        "texture_index": 0
+      }
+    }
+  }
+}

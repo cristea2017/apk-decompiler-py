@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:octopus",
+      "materials": {
+        "default": "fish"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/octopus"
+      },
+      "geometry": {
+        "default": "geometry.octopus"
+      },
+      "spawn_egg": {
+        "base_color": "# ff000088 ",
+        "overlay_color": "# ff000044 "
+      },
+      "render_controllers": [ "controller.render.fish" ],
+
+      "enable_attachables": true
+    }
+  }
+}

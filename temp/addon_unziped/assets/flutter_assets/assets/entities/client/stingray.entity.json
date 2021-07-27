@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:stingray",
+      "materials": {
+        "default": "fish"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/stingray"
+      },
+      "geometry": {
+        "default": "geometry.stingray"
+      },
+      "spawn_egg": {
+        "base_color": "# ff009cff ",
+        "overlay_color": "# ff002aff "
+      },
+      "render_controllers": [ "controller.render.fish" ],
+      "enable_attachables": true
+    }
+  }
+}

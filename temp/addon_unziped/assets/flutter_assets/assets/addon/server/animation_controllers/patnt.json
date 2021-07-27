@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.fuse": {
+      "states": {
+        "default": {
+          "transitions": [ { "burning": "(1.0)" } ],
+          "on_entry": [ "/particle tnt:fuse ~ ~0.5 ~" ]
+        },
+        "burning": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/particle tnt:fuse ~ ~0.5 ~" ]
+        }
+      }
+    }
+  }
+}

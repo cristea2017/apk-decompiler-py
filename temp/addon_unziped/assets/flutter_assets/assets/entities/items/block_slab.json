@@ -1,0 +1,86 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:change_me",
+      "properties": {
+        "slab:interact": [
+          0,
+          1
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": {"table": ""},
+      "minecraft:destroy_time": 0.3,
+      "minecraft:friction": 0.7,
+      "minecraft:map_color": "#ffffff",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:flammable": {
+        "flame_odds": 1,
+        "burn_odds": 1
+      },
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "pa_slab",
+          "render_method": "blend"
+        }
+      },
+      "tag:wood": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('slab:interact') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.pa_slab",
+          "minecraft:on_interact": {
+            "event": "block",
+            "target": "self",
+            "condition": "query.get_equipped_item_name('main_hand') == 'slab'"
+          },
+          "minecraft:entity_collision": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          },
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              8,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('slab:interact') == 1",
+        "components": {
+          "minecraft:loot": "loot_tables/slab_double.json",
+          "minecraft:unit_cube": {}
+        }
+      }
+    ],
+    "events": {
+      "block": {
+        "set_block_property": {
+          "slab:interact": 1
+        },
+        "decrement_stack": {}
+      }
+    }
+  }
+}

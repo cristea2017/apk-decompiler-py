@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:tylosaur",
+      "textures": {
+        "default": "textures/entity/ocean/tylosaur"
+      },
+      "materials": {
+        "default": "skeleton"
+      },
+      "geometry": {
+        "default": "geometry.tylosaur"
+      },
+      "render_controllers": [
+        "controller.render.translucence"
+      ],
+      "spawn_egg": {
+        "base_color": "#73824b",
+        "overlay_color": "#9f9b66"
+      },
+      "animations": {
+        "walk": "animation.tylosaur.swim2",
+        "still": "animation.tylosaur.still",
+        "run": "animation.tylosaur.swim"
+      },
+      "scripts": {
+        "animate": [
+          "root",
+          {
+            "walk": "query.is_moving && query.is_on_ground"
+          },
+          {
+            "swim": "query.is_moving && query.is_in_water"
+          },
+          {
+            "still": "!query.is_moving"
+          }
+        ]
+      }
+    }
+  }
+}

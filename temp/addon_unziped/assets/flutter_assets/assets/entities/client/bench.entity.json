@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:bench",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "white": "textures/entity/furni/bench"
+      },
+      "geometry": {
+        "default": "geometry.bench"
+      },
+      "render_controllers": [ "controller.render.shulker" ],
+      "spawn_egg": {
+        "texture": "bench",
+        "texture_index": 0
+      }
+    }
+  }
+}

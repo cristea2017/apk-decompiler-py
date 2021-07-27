@@ -1,0 +1,22 @@
+{
+  "geometry.mouse": {
+    "texturewidth": 32,
+    "textureheight": 32,
+    "visible_bounds_width": 1,
+    "visible_bounds_height": 1,
+    "visible_bounds_offset": [0, 0.5, 0],
+    "bones": [
+      {
+        "name": "mouse_body",
+        "pivot": [0, 0, 0],
+        "cubes": [
+          {"origin": [-1.5, 0, -3], "size": [3, 2, 6], "uv": [0, 0]},
+          {"origin": [-1.5, 2, -1], "size": [3, 1, 4], "uv": [0, 8]},
+          {"origin": [-0.5, 0, 3], "size": [1, 1, 4], "uv": [14, 8]},
+          {"origin": [0.5, 1, -2.5], "size": [2, 2, 1], "uv": [0, 13]},
+          {"origin": [-2.5, 1, -2.5], "size": [2, 2, 1], "uv": [6, 13]}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:mule",
+      "materials": {
+        "default": "translucence"
+      },
+      "textures": {
+        "default": "textures/entity/horse2/mule"
+      },
+      "geometry": {
+        "default": "geometry.mule.v2"
+      },
+      "animations": {
+        "setup": "animation.cow.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cow.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          { "walk": "query.modified_move_speed" },
+          "look_at_target",
+          { "baby_transform": "query.is_baby" }
+        ]
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 31
+      },
+      "render_controllers": [ "controller.render.translucence" ]
+    }
+  }
+}

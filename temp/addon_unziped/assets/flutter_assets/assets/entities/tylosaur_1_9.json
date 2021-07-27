@@ -1,0 +1,350 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:tylosaur",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "minecraft:tylosaur_adult": {
+        "minecraft:scale": {
+          "value": 1
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/pa_tylosaur.json"
+        },
+        "minecraft:knockback_resistance": {
+          "value": 0.75
+        }
+      },
+      "minecraft:tylosaur_adult_wild": {
+        "minecraft:type_family": {
+          "family": [
+            "herbdinosaur",
+            "monster",
+            "tylosaur"
+          ]
+        },
+        "minecraft:attack": {
+          "damage": {
+            "range_min": 10,
+            "range_max": 15
+          }
+        },
+        "minecraft:behavior.breed": {
+          "priority": 0,
+          "speed_multiplier": 0.7
+        },
+        "minecraft:breedable": {
+          "requireTame": false,
+          "breedsWith": {
+            "mateType": "pa:tylosaur",
+            "babyType": "pa:tylosaur",
+            "breed_event": {
+              "event": "minecraft:entity_born",
+              "target": "baby"
+            }
+          },
+          "breedItems": [
+            "potato",
+            "wheat",
+            "carrot",
+            "apple"
+          ]
+        },
+        "minecraft:health": {
+          "value": 40,
+          "max": 40
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "within_radius": 23,
+          "entity_types": [
+            {
+              "filters": {
+                "other_with_families": [
+                  "monsters"
+                ]
+              },
+              "max_dist": 23
+            }
+          ],
+          "must_see": true
+        },
+        "minecraft:on_hurt_by_player": {},
+        "minecraft:behavior.random_stroll": {
+          "priority": 5,
+          "speed_multiplier": 0.8
+        },
+        "minecraft:behavior.hurt_by_target": {
+          "priority": 5
+        }
+      },
+      "minecraft:tylosaur_baby_wild": {
+        "minecraft:behavior.tempt": {
+          "priority": 3,
+          "speed_multiplier": 0.6,
+          "items": [
+            "potato",
+            "wheat",
+            "carrot",
+            "apple"
+          ]
+        },
+        "minecraft:is_baby": {},
+        "minecraft:health": {
+          "value": 15,
+          "max": 20
+        },
+        "minecraft:behavior.follow_parent": {
+          "priority": 3,
+          "speed_multiplier": 0.7
+        },
+        "minecraft:scale_by_age": {
+          "start_scale": 0.3,
+          "end_scale": 1
+        },
+        "minecraft:ageable": {
+          "duration": 1600,
+          "feedItems": [
+            {
+              "item": "potato",
+              "growth": 0.1
+            },
+            {
+              "item": "wheat",
+              "growth": 0.1
+            },
+            {
+              "item": "carrot",
+              "growth": 0.1
+            },
+            {
+              "item": "apple",
+              "growth": 0.1
+            }
+          ],
+          "grow_up": {
+            "event": "minecraft:ageable_grow_up_wild",
+            "target": "self"
+          }
+        },
+        "minecraft:behavior.panic": {
+          "priority": 1,
+          "speed_multiplier": 0.7
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesWater": true,
+        "breathesAir": true,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:health": {
+        "value": 30
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "reselect_targets": true,
+        "must_see": true,
+        "within_radius": 12.0,
+        "must_see_forget_duration": 17.0,
+        "persist_time": 0.5,
+        "entity_types": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "any_of": [
+                    { "test": "is_family", "subject": "other", "value": "player" },
+                    { "test": "is_family", "subject": "other", "value": "snowgolem" },
+                    { "test": "is_family", "subject": "other", "value": "irongolem" }
+                  ]
+                },
+                {
+                  "any_of": [
+                    { "test": "in_water", "subject": "other", "value": true },
+                    { "test": "is_daytime", "value": false }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 20
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "any_of": [
+                    { "test": "is_family", "subject": "other", "value": "villager" },
+                    { "test": "is_family", "subject": "other", "value": "wandering_trader" }
+                  ]
+                },
+                {
+                  "any_of": [
+                    { "test": "in_water", "subject": "other", "value": true },
+                    { "test": "is_daytime", "value": false }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 20,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "baby_turtle" },
+                { "test": "in_water", "subject": "other", "operator": "!=", "value": true }
+              ]
+            },
+            "max_dist": 20
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:water_movement": {
+        "drag_factor": 0.9
+      },
+      "minecraft:navigation.generic": {
+        "is_amphibious": true,
+        "can_path_over_water": false,
+        "can_swim": true,
+        "can_walk": true,
+        "can_sink": false,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.amphibious": {
+        "max_turn": 5.0
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:home": {
+      },
+      "minecraft:follow_range": {
+        "value": 1024
+      },
+
+      "minecraft:behavior.panic": {
+        "priority": 0,
+        "prefer_water": true,
+        "speed_multiplier": 1.2
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.tempt": {
+        "priority": 3,
+        "speed_multiplier": 1.1,
+        "items": [
+          "raw_fish"
+        ]
+      },
+      "minecraft:behavior.move_to_water": {
+        "priority": 4,
+        "search_range": 16,
+        "search_height": 5,
+        "search_count": 1,
+        "goal_radius": 0.1
+      },
+      "minecraft:behavior.random_swim": {
+        "priority": 7,
+        "interval": 0,
+        "xz_dist": 30,
+        "y_dist": 15
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "target_distance": 6.0,
+        "probability": 0.02
+      }
+    },
+
+    "events": {
+      "from_egg": {
+        "add": {
+          "component_groups": [
+            "minecraft:tylosaur_baby_wild"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 8,
+            "add": {
+              "component_groups": [
+                "minecraft:tylosaur_adult_wild"
+              ]
+            }
+          },
+          {
+            "weight": 8,
+            "add": {
+              "component_groups": [
+                "minecraft:tylosaur_adult"
+              ]
+            }
+          },
+          {
+            "weight": 8,
+            "add": {
+              "component_groups": [
+                "minecraft:tylosaur_baby_wild"
+              ]
+            }
+          },
+          {
+            "weight": 8,
+            "add": {
+              "component_groups": [
+                "minecraft:tylosaur_adult_wild",
+                "minecraft:tylosaur_adult"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:entity_born": {
+        "add": {
+          "component_groups": [
+            "minecraft:tylosaur_baby_wild"
+          ]
+        }
+      },
+      "minecraft:entity_transformed": {
+        "add": {
+          "component_groups": [
+            "minecraft:tylosaur_baby_wild"
+          ]
+        }
+      },
+      "minecraft:ageable_grow_up_wild": {
+        "remove": {
+          "component_groups": [
+            "minecraft:tylosaur_baby_wild"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:tylosaur_adult",
+            "minecraft:tylosaur_adult_wild"
+          ]
+        }
+      }
+    }
+  }
+}

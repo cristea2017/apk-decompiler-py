@@ -1,0 +1,64 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:starfish",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "fish" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 0.3
+      },
+      "minecraft:health": {
+        "value": 12,
+        "max": 12
+      },
+
+      "minecraft:loot": {
+        "table": "loot_tables/entities/fish.json"
+      },
+
+      "minecraft:scale": {
+        "value": 0.5
+      },
+
+      "minecraft:movement": {
+        "value": 0.0
+      },
+      "minecraft:navigation.walk": {
+        "can_float": false
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:physics": {
+        "has_gravity": true
+      },
+
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 6,
+            "walk_speed_multiplier": 1.5,
+            "sprint_speed_multiplier": 2.0
+          }
+        ]
+      },
+      "minecraft:nameable": {
+      }
+    }
+  }
+}

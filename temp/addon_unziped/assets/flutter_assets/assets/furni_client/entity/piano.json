@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:piano",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "default": "textures/entity/furni/piano"
+      },
+      "geometry": {
+        "default": "geometry.piano"
+      },
+      "render_controllers": [ "controller.render.piano" ],
+      "spawn_egg": {
+        "texture": "piano",
+		"texture_index": 0
+      }
+    }
+  }
+}

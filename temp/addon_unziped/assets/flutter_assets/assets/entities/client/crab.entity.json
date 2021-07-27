@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:crab",
+      "materials": {
+        "default": "fish"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/crab"
+      },
+      "geometry": {
+        "default": "geometry.crab"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 58,
+        "base_color": "# ff880000 ",
+        "overlay_color": "# ff440000 "
+      },
+      "render_controllers": [ "controller.render.fish" ],
+      "enable_attachables": true
+    }
+  }
+}

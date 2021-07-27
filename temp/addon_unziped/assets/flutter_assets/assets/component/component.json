@@ -1,0 +1,493 @@
+{
+  "minecraft:on_target_acquired": {
+    "event": "minecraft:become_angry",
+    "target": "self"
+  },
+  "minecraft:flying_speed": {
+    "value": 0.02
+  },
+  "minecraft:underwater_movement": {
+    "value": 0.02
+  },
+  "minecraft:spawn_entity": {
+    "min_wait_time": 0,
+    "max_wait_time": 0,
+    "spawn_entity": "llama",
+    "spawn_event": "minecraft:entity_spawned",
+    "single_use": true,
+    "num_to_spawn": 2,
+    "should_leash": true
+  },
+  "minecraft:trade_table": {
+    "display_name": "entity.npc",
+    "table": "trading/librarian_trades.json",
+    "new_screen": true
+  },
+  "minecraft:behavior.trade_with_player": {
+    "priority": 1
+  },
+  "minecraft:behavior.look_at_trading_player": {
+    "priority": 2
+  },
+  "minecraft:nameable": {
+    "alwaysShow": true,
+    "allowNameTagRenaming": true
+  },
+  "minecraft:experience_reward": {
+    "on_death": "query.last_hit_by_player ? 10 : 0"
+  },
+  "minecraft:boss": {
+    "should_darken_sky": false,
+    "hud_range": 125
+  },
+  "minecraft:attack": {
+    "damage": 3
+  },
+  "minecraft:attack_damage": {
+    "value": 3,
+    "max": 3,
+    "effect_name": "hunger",
+    "effect_duration": 30
+  },
+  "minecraft:behavior.avoid_mob_type": {
+    "priority": 3,
+    "entity_types": [
+      {
+        "filters": {
+          "other_with_families": [
+            "ocelot"
+          ]
+        },
+        "max_dist": 6,
+        "walk_speed_multiplier": 1.0,
+        "sprint_speed_multiplier": 1.2
+      }
+    ],
+    "max_dist": 6,
+    "walk_speed_multiplier": 1.0,
+    "sprint_speed_multiplier": 1.2,
+    "sneak_speed_multiplier": 1.0
+  },
+  "minecraft:behavior.breed": {
+    "priority": 4,
+    "speed_multiplier": 1.0
+  },
+  "minecraft:behavior.circle_around_anchor": {},
+  "minecraft:behavior.flee_sun": {
+    "priority": 2,
+    "speed_multiplier": 2
+  },
+  "minecraft:behavior.float": {
+    "priority": 2,
+    "speed_multiplier": 1.0
+  },
+  "minecraft:behavior.leap_at_target": {
+    "priority": 4,
+    "yd": 0.4,
+    "must_be_on_ground": false,
+    "target_dist": 0.4,
+    "speed_multiplier": 1.0
+  },
+  "minecraft:behavior.look_at_player": {
+    "priority": 7,
+    "target_distance": 6.0,
+    "probability": 0.02,
+    "speed_multiplier": 1.0
+  },
+  "minecraft:behavior.melee_attack": {
+    "priority": 2,
+    "speed_multiplier": 1.0,
+    "target_dist": 0.0,
+    "max_dist": 3,
+    "random_stop_interval": 100,
+    "track_target": false,
+    "reach_multiplier": 1.4
+  },
+  "minecraft:behavior.mount_pathing": {
+    "speed_multiplier": 1.5,
+    "target_dist": 0.0,
+    "track_target": true
+  },
+  "minecraft:behavior.move_to_water": {
+
+  },
+  "minecraft:behavior.move_towards_restriction": {
+    "priority": 4,
+    "speed_multiplier": 1
+  },
+  "minecraft:behavior.nearest_attackable_target": {
+    "priority": 3,
+    "within_radius":25,
+    "must_reach":false,
+    "entity_types": [
+      {
+        "filters": {
+          "any_of": [
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "zombie_villager"
+            },
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "zombie_pigman"
+            },
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "illager"
+            },
+            {
+              "test": "is_family",
+              "subject": "other",
+              "value": "vex"
+            }
+          ],
+          "other_with_families": []
+        },
+        "max_dist": 35,
+        "must_see": false
+      }
+    ],
+    "must_see": false,
+    "speed_multiplier": 1.0
+  },
+  "minecraft:behavior.panic": {
+    "speed_multiplier": 1.25
+  },
+  "minecraft:behavior.player_ride_tamed": {
+    "speed_multiplier": 1.5
+  },
+  "minecraft:behavior.random_breach": {
+  },
+  "minecraft:behavior.random_look_around": {
+    "speed_multiplier": 1.0
+  },
+  "minecraft:behavior.random_stroll": {
+    "speed_multiplier": 0.7
+  },
+  "minecraft:behavior.random_swim": {
+  },
+  "minecraft:behavior.ranged_attack": {
+    "attack_interval_min": 1,
+    "attack_interval_max": 3,
+    "attack_radius": 15,
+    "burst_shots": 1,
+    "burst_interval": 0.5
+  },
+  "minecraft:behavior.restrict_sun": {
+    "priority": 1
+  },
+  "minecraft:behavior.run_around_like_crazy": {
+    "speed_multiplier": 1.6
+  },
+  "minecraft:behavior.swell": {
+    "start_distance": 2.0,
+    "stop_distance": 6.0
+  },
+  "minecraft:behavior.follow_owner": {
+    "start_distance": 10.0,
+    "speed_multiplier": 1.0,
+    "stop_distance": 2.0,
+    "priority": 6
+  },
+  "minecraft:behavior.swim_wander": {
+  },
+  "minecraft:behavior.swoop_attack": {
+  },
+  "minecraft:behavior.tempt": {
+    "speed_multiplier": 1.2,
+    "items": [
+      "apple",
+      "carrot",
+      "golden_apple",
+      "appleEnchanted",
+      "golden_carrot",
+      "carrotOnAStick",
+      "tile.hay_block",
+      "sugar",
+      "bread",
+      "wheat" ]
+  },
+  "minecraft:boostable": {
+    "speed_multiplier": 2.0,
+    "duration": 3.0,
+    "boost_items": [
+      {
+        "item": "carrotOnAStick",
+        "item_damage": 2,
+        "replaceItem": "fishing_rod"
+      }
+    ]
+  },
+  "minecraft:breathable":{
+    "breathesWater": true,
+    "totalSupply": 20,
+    "suffocateTime": -1,
+    "generatesBubbles": true,
+    "breathesAir": true
+  },
+  "minecraft:breedable": {
+    "requireTame": false,
+    "breedsWith": [{
+      "mateType": "minecraft:pig",
+      "babyType": "minecraft:pig",
+      "breed_event": {
+        "event": "minecraft:entity_born",
+        "target": "baby"
+      }
+    }],
+    "breedItems": ["carrot"]
+  },
+  "minecraft:breedswith": {
+    "mateType": "minecraft:pig",
+    "babyType": "minecraft:pig",
+    "breed_event": {
+      "event": "minecraft:entity_born",
+      "target": "baby"
+    }
+  },
+  "minecraft:burns_in_daylight": {},
+  "minecraft:collision_box": {
+    "width": 0.9,
+    "height": 0.9
+  },
+  "minecraft:damage_sensor": [{
+    "on_damage": {
+      "filters": {
+        "other_with_families": ["lightning"]
+      },
+      "event": "become_zombie"
+    },
+    "deals_damage": false
+  }],
+  "minecraft:definition_event": {
+    "affectProjectile": true,
+    "eventTrigger": {
+      "event": "minecraft:explode",
+      "target": "self"
+    }
+  },
+  "entity_type": [
+    {
+      "filters": {
+        "other_with_families": [
+          "ocelot"
+        ]
+      },
+      "max_dist": 6,
+      "walk_speed_multiplier": 1,
+      "sprint_speed_multiplier": 1.2
+    }
+  ],
+  "minecraft:event.explode": {
+    "add": {
+      "component_groups": [
+        "minecraft:exploding"
+      ]
+    }
+  },
+  "minecraft:explode": {
+    "fuseLength": 0,
+    "fuseLit": true,
+    "power": 1,
+    "causesFire": false
+  },
+  "minecraft:fall_damage": {
+    "value": 0.0
+  },
+  "minecraft:fire_immune": true,
+  "minecraft:follow_range": {
+  },
+  "minecraft:healable": {
+    "items": [
+      {
+        "item": "wheat",
+        "heal_amount": 2
+      }
+    ]
+
+  },
+  "minecraft:health": {
+    "value": 20,
+    "max": 20
+  },
+  "minecraft:hurt_when_wet":{
+    "value": true
+  },
+  "identifier": {
+    "id": "minecraft:pig"
+  },
+  "impact_damage": {
+    "damage": 5,
+    "knockback": false,
+    "catchFire": true,
+    "semirandomdiffdamage": true,
+    "shouldbounce": true,
+    "destroyonhit": true
+  },
+  "minecraft:interact":[{
+    "on_interact": {
+      "filters": {
+        "other_with_item": ["golden_apple"],
+        "with_components": ["minecraft:effect.weakness"]
+      },
+      "event": "villager_converted",
+      "target": "self"
+    },
+    "use_item": "true"
+  }],
+  "minecraft:inventory":{
+    "inventory_size": 2,
+    "container_type": "container"
+  },
+  "minecraft:is_tamed": {},
+  "minecraft:item_controllable": {
+    "control_items": "carrotOnAStick"
+  },
+  "minecraft:jump.static": {
+  },
+  "minecraft:leashable": {
+    "soft_distance": 4.0,
+    "hard_distance": 6.0,
+    "max_distance": 10.0,
+    "on_leash": {
+      "event": "minecraft:on_leash",
+      "target": "self"
+    },
+    "on_unleash": {
+      "event": "minecraft:on_unleash",
+      "target": "self"
+    }
+
+  },
+  "minecraft:movement.glide": {
+  },
+  "minecraft:movement": {
+    "value": 0.23,
+    "max": 0.23
+  },
+  "minecraft:movement.sway": {
+  },
+  "minecraft:navigation.generic": {
+  },
+  "onhit": {
+    "teleport_owner": { },
+    "remove_on_hit": { },
+    "definition_event": {
+      "affectProjectile": true,
+      "eventTrigger": {
+        "event": "minecraft:explode",
+        "target": "self"
+      }
+    },
+    "impact_damage": {
+      "damage": 5,
+      "knockback": false,
+      "catchFire": true,
+      "semirandomdiffdamage": true,
+      "shouldbounce": true,
+      "destroyonhit": true
+    }
+  },
+  "minecraft:physics": {
+  },
+  "minecraft:projectile": {
+    "onHit": {
+      "teleport_owner": { },
+      "remove_on_hit": { },
+      "definition_event": {
+        "affectProjectile": true,
+        "eventTrigger": {
+          "event": "minecraft:explode",
+          "target": "self"
+        }
+      },
+      "impact_damage": {
+        "damage": 5,
+        "knockback": false,
+        "catchFire": true,
+        "semirandomdiffdamage": true,
+        "shouldbounce": true,
+        "destroyonhit": true
+      }
+
+    },
+    "power": 1.6,
+    "gravity": 0.00,
+    "inertia": 1,
+    "uncertaintyBase": 16,
+    "uncertaintyMultiplier": 4,
+    "anchor": 1,
+    "offset": [ 0, -0.1, 0 ],
+    "reflectOnHurt": true,
+    "catchFire": true
+  },
+  "minecraft:rideable": {
+    "seat_count": 1,
+    "family_types": [
+      "player",
+      "zombie"
+    ],
+    "interact_text": "action.interact.mount",
+    "seats": [{
+      "position": [0.0, 0.6, -0.2]
+    }]
+
+  },
+  "minecraft:scale": {
+    "value":1
+  },
+  "minecraft:shooter": {
+    "type": "Arrow",
+    "def": "minecraft:arrow.skeleton"
+  },
+  "minecraft:tameable": {
+    "probability": 0.33,
+    "tameItems": [
+      "fish",
+      "salmon"
+    ],
+    "tame_event": {
+      "event": "minecraft:on_tame",
+      "target": "self"
+    }
+  },
+  "minecraft:target_nearby_sensor":{
+    "inside_range": 2.0,
+    "outside_range": 6.0,
+    "on_inside_range": {
+      "filters": {
+        "target_with_families":["player"]
+      },
+      "event": "minecraft:start_exploding",
+      "target": "self"
+    },
+    "on_outside_range": {
+      "event": "minecraft:stop_exploding",
+      "target": "self"
+    }
+
+  },
+  "minecraft:teleport": {
+    "randomTeleports": true,
+    "maxRandomTeleportTime": 30,
+    "randomTeleportCube": [ 32, 32, 32 ],
+    "targetDistance": 16,
+    "lightTeleportChance": 0.01
+  },
+  "minecraft:transformed": {
+    "minecraft:transformation": {
+      "into": "minecraft:zombie_pigman"
+    }
+  },
+  "minecraft:type_family": {
+    "family": [ ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:swordfish",
+      "materials": {
+        "default": "fish"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/swordfish"
+      },
+      "geometry": {
+        "default": "geometry.swordfish"
+      },
+      "spawn_egg": {
+        "overlay_color": "#a4a4a4",
+        "base_color": "#E1F0FE"
+      },
+      "render_controllers": [ "controller.render.fish" ],
+      "enable_attachables": true
+    }
+  }
+}

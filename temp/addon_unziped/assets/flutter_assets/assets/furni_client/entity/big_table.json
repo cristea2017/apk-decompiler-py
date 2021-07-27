@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:big_table",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "magenta": "textures/entity/furni/big_table"
+      },
+      "geometry": {
+        "default": "geometry.big_table"
+      },
+      "render_controllers": [ "controller.render.shulker" ],
+      "spawn_egg": {
+        "texture": "big_table",
+        "texture_index": 0
+      }
+    }
+  }
+}

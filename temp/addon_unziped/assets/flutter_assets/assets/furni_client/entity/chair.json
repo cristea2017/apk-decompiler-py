@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:chair",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "light_blue": "textures/entity/furni/chair"
+      },
+      "geometry": {
+        "default": "geometry.chair"
+      },
+      "render_controllers": [ "controller.render.shulker" ],
+      "spawn_egg": {
+        "texture": "chair",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:octopus",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "octopus" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.60,
+        "height": 0.30
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+
+      "minecraft:loot": {
+        "table": "loot_tables/entities/squid.json"
+      },
+
+
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesAir": false,
+        "breathesWater": true
+      },
+
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.1
+      },
+      "minecraft:navigation.generic": {
+        "is_amphibious": false,
+        "can_path_over_water": false,
+        "can_swim": true,
+        "can_walk": false,
+        "can_breach": false,
+        "can_sink": false
+      },
+      "minecraft:physics": {
+        "has_gravity": true
+      },
+      "minecraft:movement.sway": {
+        "sway_amplitude": 0.0
+      },
+      "minecraft:behavior.swim_idle": {
+        "priority": 5
+      },
+      "minecraft:behavior.random_swim": {
+        "priority": 3,
+        "speed_multiplier": 1.0,
+        "xz_dist": 16,
+        "y_dist": 4,
+        "interval": 0
+      },
+      "minecraft:behavior.swim_wander": {
+        "priority": 4,
+        "speed_multiplier": 1.0,
+        "interval": 10,
+        "look_ahead": 2.0
+      },
+
+      "minecraft:attack": {
+        "damage": 5
+      },
+
+      "minecraft:behavior.melee_attack": {
+        "priority": 1,
+        "speed_multiplier": 1,
+        "track_target": true
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "fish"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "piranha"
+                }
+              ]
+            },
+            "max_dist": 10
+          }
+        ],
+        "must_reach": true
+      },
+      "minecraft:nameable": {
+      }
+    }
+  }
+}

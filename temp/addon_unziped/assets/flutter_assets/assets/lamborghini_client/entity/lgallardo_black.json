@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lamborghini:gallardo_black",
+      "materials": {
+        "default": "cars"
+      },
+      "textures": {
+        "default": "textures/entity/lamborghini/gallardo_black"
+      },
+      "geometry": {
+        "default": "geometry.lgallardo"
+      },
+      "spawn_egg": {
+        "texture": "gallardo",
+        "texture_index":0
+      },
+      "render_controllers": [ "controller.render.cars" ],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:spiny",
+      "textures": {
+        "default": "textures/entity/ocean/spiny"
+      },
+      "materials": {
+        "default": "skeleton"
+      },
+      "geometry": {
+        "default": "geometry.spiny"
+      },
+      "render_controllers": [
+        "controller.render.translucence"
+      ],
+      "spawn_egg": {
+        "base_color": "#73824b",
+        "overlay_color": "#9f9b66"
+      },
+      "animations": {
+        "walk": "animation.spiny.walk",
+        "stand": "animation.spiny.stand",
+        "swim": "animation.spiny.swim"
+      },
+      "scripts": {
+        "animate": [
+          "root",
+          {
+            "walk": "query.is_moving && query.is_on_ground"
+          },
+          {
+            "swim": "query.is_moving && query.is_in_water"
+          },
+          {
+            "stand": "!query.is_moving"
+          }
+        ]
+      }
+    }
+  }
+}

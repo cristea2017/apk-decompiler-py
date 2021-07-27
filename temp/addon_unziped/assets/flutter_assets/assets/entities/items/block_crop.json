@@ -1,0 +1,87 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:change_me",
+      "properties": {
+        "pa:growth_stage" : [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": {"table": ""},
+      "minecraft:destroy_time": 0.0,
+      "minecraft:friction": 0.1,
+      "minecraft:map_color": "#ffffff",
+      "minecraft:explosion_resistance": 0.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:pick_collision": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          12,
+          12
+        ]
+      },
+      "minecraft:geometry": "geometry.pa_sapling",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dark_sapling",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:breakonpush": true,
+      "minecraft:entity_collision": false,
+      "minecraft:on_interact": {
+        "event": "grow_ticking",
+        "target": "self",
+        "condition": "query.get_equipped_item_name == 'bone_meal'"
+      },
+      "minecraft:random_ticking": {
+        "on_tick": {
+          "event": "grow_ticking",
+          "target": "self"
+        }
+      },
+      "minecraft:placement_filter" : {
+        "conditions" : [
+          {
+            "block_filter" : [
+              "farmland",
+              "dirt",
+              "grass"
+            ],
+            "allowed_faces" : [
+              "up"
+            ]
+          }
+        ]
+      }
+    },
+    "permutations" : [
+    ],
+    "events": {
+      "grow_ticking": {
+        "randomize": [
+          {
+            "weight": 10
+          },
+          {
+            "set_block_property" : {
+              "pa:growth_stage" : "(query.block_property('pa:growth_stage') < 1}) ? query.block_property('pa:growth_stage') + 1 : 1"
+            },
+            "weight" : 90
+          }
+        ]
+      }
+    }
+  }
+}

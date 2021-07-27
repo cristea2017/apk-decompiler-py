@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:christmas_tree",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "default": "textures/entity/furni/christmas_tree"
+      },
+      "geometry": {
+        "default": "geometry.christmas_tree"
+      },
+      "render_controllers": [ "controller.render.christmas_tree" ],
+      "spawn_egg": {
+        "texture": "christmas_tree",
+		"texture_index": 0
+      }
+    }
+  }
+}

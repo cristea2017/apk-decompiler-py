@@ -1,0 +1,46 @@
+{
+  "format_version" : "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:seagull",
+      "materials": {
+        "default": "phantom",
+        "invisible": "phantom_invisible"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/seagull"
+      },
+      "geometry": {
+        "default": "geometry.seagull"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.wingRotZ = 16.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 7.448454);",
+          "variable.tailRotX = -5.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 14.896908) - 5.0;"
+        ]
+      },
+      "animations": {
+        "phantom_base_pose": "animation.fly.base_pose",
+        "move": "animation.fly.move"
+      },
+      "animation_controllers": [
+        {
+          "phantom_base_pose": "controller.animation.phantom.base_pose"
+        },
+        {
+          "move": "controller.animation.phantom.move"
+        }
+      ],
+      "particle_effects": {
+        "wing_dust": "minecraft:n/n"
+      },
+      "render_controllers": [
+        "controller.render.phantom"
+      ],
+      "spawn_egg": {
+        "base_color": "# ff635CFF ",
+        "overlay_color": "# ff00002f "
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "custombiome"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.0,
+        "snow_accumulation": [ 0.0, 0.0 ],
+        "temperature": 2.0
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "default"
+      },
+      "minecraft:overworld_surface": {
+        "floor_depth": 7,
+        "floor_material": "minecraft:gravel",
+        "foundation_material": "minecraft:stone",
+        "mid_material": "minecraft:dirt",
+        "top_material": "minecraft:grass",
+        "sea_material": "minecraft:water"
+      },
+      "minecraft:world_generation_rules": {
+        "hills_transformation": "cold_taiga_hills",
+        "river_transformation": "frozen_river",
+        "generate_for_climates": [
+          [ "cold", 10 ],
+          [ "medium", 30 ]
+        ]
+      },
+      "minecraft:nether_generation_rules": {
+        "target_temperature": -0.5,
+        "target_humidity": 0.0,
+        "target_altitude": 0.0,
+        "target_weirdness": 0.0,
+        "weight": 0.5
+      },
+      "animal": {},
+      "monster": {},
+      "overworld": {},
+      "custombiome": {}
+    }
+  }
+}

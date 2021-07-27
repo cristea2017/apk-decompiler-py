@@ -1,0 +1,23 @@
+{
+  "format_version" : "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:cachalote",
+      "materials": {
+        "default": "fish"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/cachalote"
+      },
+      "geometry": {
+        "default": "geometry.cachalote"
+      },
+      "spawn_egg": {
+        "base_color": "# ff0000aa ",
+        "overlay_color": "# ff00002f "
+      },
+      "render_controllers": [ "controller.render.fish" ],
+      "enable_attachables": true
+    }
+  }
+}

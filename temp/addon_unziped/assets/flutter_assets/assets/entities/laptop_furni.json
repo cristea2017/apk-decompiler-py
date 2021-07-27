@@ -1,0 +1,69 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:laptop",
+      "is_spawnable": true,
+
+      "is_summonable": true,
+
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "furnicraft" ]
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:navigation.walk": {
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:movement": {
+        "value": 0,
+        "max": 0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:push_through": {
+      "value": 1
+      },
+
+
+      "minecraft:is_stackable": {
+      },
+      "minecraft:item_controllable": {
+      "control_items": "diamond_hoe"
+      },
+      "minecraft:behavior.controlled_by_player": {
+      "priority": 0
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:fall_damage": {
+      "value": 0.0
+      },
+      "minecraft:rideable": {
+          "seat_count": 1,
+          "interact_text": "action.interact.sit",
+          "family_types": [
+            "player"
+          ],
+          "seats": [{
+            "position": [0.0, 0.45, 0.0]
+          }]
+        }
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      }
+  }
+}

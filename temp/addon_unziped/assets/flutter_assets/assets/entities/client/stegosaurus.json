@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:stegosaurus",
+      "textures": {
+        "default": "textures/entity/ocean/stegosaurus"
+      },
+      "materials": {
+        "default": "skeleton"
+      },
+      "geometry": {
+        "default": "geometry.stegosaurus"
+      },
+      "render_controllers": [
+        "controller.render.translucence"
+      ],
+      "spawn_egg": {
+        "base_color": "#73824b",
+        "overlay_color": "#9f9b66"
+      },
+      "animations": {
+        "walk": "animation.stegosaurus.walk",
+        "stand": "animation.stegosaurus.stand"
+      },
+      "scripts": {
+        "animate": [
+          "root",
+          { "walk": "query.modified_move_speed" },
+          { "stand": "!query.modified_move_speed" }
+        ]
+      }
+    }
+  }
+}

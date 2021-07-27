@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Blocks",
+    "icon": "assets/items_icon/block/block_100.png",
+    "path": "texture_block.json"
+  },
+  {
+    "name": "Environment",
+    "icon": "assets/custom/enviroment.png",
+    "path": "texture_environment.json"
+  },
+  {
+    "name": "Items",
+    "icon": "assets/custom/item.png",
+    "path": "texture_item.json"
+  },
+  {
+    "name": "UI",
+    "icon": "assets/custom/ui.png",
+    "path": "texture_ui.json"
+  },
+  {
+    "name": "GUI",
+    "icon": "assets/custom/gui.png",
+    "path": "texture_gui.json"
+  },
+  {
+    "name": "Colormap",
+    "icon": "assets/custom/colormap.png",
+    "path": "texture_colormap.json"
+  },
+  {
+    "name": "Misc",
+    "icon": "assets/custom/misc.png",
+    "path": "texture_misc.json"
+  }
+]

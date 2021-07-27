@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:drone",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "black": "textures/entity/furni/drone"
+      },
+      "geometry": {
+        "default": "geometry.drone"
+      },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "baby_transform": "animation.villager.baby_transform"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.villager.general" },
+        { "move": "controller.animation.villager.move" },
+        { "baby": "controller.animation.villager.baby" }
+      ],
+      "render_controllers": [ "controller.render.shulker" ],
+      "spawn_egg": {
+        "texture": "drone",
+        "texture_index": 0
+      }
+    }
+  }
+}

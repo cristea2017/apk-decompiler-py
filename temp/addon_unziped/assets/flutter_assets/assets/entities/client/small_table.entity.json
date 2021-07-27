@@ -1,0 +1,20 @@
+{
+  "format_version" : "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:small_table",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "orange": "textures/entity/furni/small_table"
+      },
+      "geometry": {
+        "default": "geometry.small_table"
+      },
+      "render_controllers": [ "controller.render.shulker" ],
+      "spawn_egg": {
+        "texture": "small_table",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version" : "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:piranha",
+      "materials": {
+        "default": "fish"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/piranha"
+      },
+      "geometry": {
+        "default": "geometry.piranha"
+      },
+      "spawn_egg": {
+        "base_color": "# ff444444 ",
+        "overlay_color": "# ff440000 "
+      },
+      "render_controllers": [ "controller.render.fish" ],
+      "enable_attachables": true
+    }
+  }
+}

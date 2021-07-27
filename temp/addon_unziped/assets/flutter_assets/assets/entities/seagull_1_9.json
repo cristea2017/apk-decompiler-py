@@ -1,0 +1,133 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:seagull",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "seagull",
+          "bird"
+        ]
+      },
+      "minecraft:nameable": {},
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 0.5
+      },
+      "minecraft:movement": {
+        "value": 1.8
+      },
+      "minecraft:movement.glide": {
+        "start_speed": 0.1,
+        "speed_when_turning": 0.2
+      },
+      "minecraft:follow_range": {
+        "value": 64,
+        "max": 64
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "within_radius": 64,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "other_with_families": [
+                "baby_turtle",
+                "cod",
+                "fish"
+              ]
+            },
+            "max_dist": 64
+          }
+        ],
+        "must_see": false,
+        "must_see_forget_duration": 0.5,
+        "scan_interval": 20,
+        "target_search_height": 80.0
+      },
+      "minecraft:behavior.swoop_attack": {
+        "priority": 2,
+        "delay_range": [
+          10.0,
+          20.0
+        ]
+      },
+      "minecraft:behavior.circle_around_anchor": {
+        "priority": 3,
+        "radius_range": [
+          5.0,
+          15.0
+        ],
+        "radius_change_chance": 250,
+        "height_above_target_range": [
+          20.0,
+          40.0
+        ],
+        "height_offset_range": [
+          -4.0,
+          5.0
+        ],
+        "height_change_chance": 350,
+        "goal_radius": 1.0
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "speed_multiplier": 1.0,
+        "target_dist": 0.0,
+        "max_dist": 3,
+        "random_stop_interval": 100,
+        "track_target": false,
+        "reach_multiplier": 1.4
+      },
+      "minecraft:breedable": {
+        "requireTame": false,
+        "breedsWith": [
+          {
+            "mateType": "pa:vulture",
+            "babyType": "pa:vulture",
+            "breed_event": {
+              "event": "minecraft:entity_born",
+              "target": "baby"
+            }
+          }
+        ],
+        "breedItems": [
+          "cooked_fish",
+          "fish"
+        ]
+      },
+      "minecraft:behavior.breed": {
+        "priority": 3,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:fall_damage": {
+        "value": 0.1,
+        "max": 0.1
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/pa:seagull.json"
+      }
+    },
+    "events": null
+  }
+}

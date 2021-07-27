@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:armor_stand",
+      "materials": {
+        "default": "armor_stand"
+      },
+      "textures": {
+        "default": "textures/entity/armor_stand"
+      },
+      "spawn_egg": {
+        "base_color": "#43241B",
+        "overlay_color": "#0xa62d74"
+      },
+      "animations": {
+        "no_pose": "animation.armor_stand.no_pose"
+      },
+      "animation_controllers": [
+        { "pose": "controller.animation.armor_stand.pose" },
+        { "wiggling": "controller.animation.armor_stand.wiggle" }
+      ],
+      "geometry": {
+        "default": "geometry.armor_stand"
+      },
+      "render_controllers": [ "controller.render.armor_stand" ],
+      "enable_attachables": true
+    }
+  }
+}

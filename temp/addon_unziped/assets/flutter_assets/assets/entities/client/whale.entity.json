@@ -1,0 +1,23 @@
+{
+  "format_version" : "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:whale",
+      "materials": {
+        "default": "fish"
+      },
+      "textures": {
+        "default": "textures/entity/ocean/whale"
+      },
+      "geometry": {
+        "default": "geometry.whale"
+      },
+      "spawn_egg": {
+        "base_color": "# ff0000aa ",
+        "overlay_color": "# ff00002f "
+      },
+      "render_controllers": [ "controller.render.fish" ],
+      "enable_attachables": true
+    }
+  }
+}

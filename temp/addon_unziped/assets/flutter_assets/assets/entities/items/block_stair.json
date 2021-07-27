@@ -1,0 +1,149 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "pa:change_me",
+      "properties": {
+        "stair:rotation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": {"table": ""},
+      "minecraft:destroy_time": 0.3,
+      "minecraft:friction": 0.7,
+      "minecraft:map_color": "#ffffff",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:flammable": {
+        "flame_odds": 1,
+        "burn_odds": 1
+      },
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "tag:wood": {},
+      "minecraft:geometry": "geometry.pa_stair_top",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dark_planks",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:on_player_placing": {
+        "event": "update_rotation"
+      },
+      "minecraft:entity_collision": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:pick_collision": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:on_placed": {
+        "event": "replace_barrier",
+        "target": "self"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "replace_air",
+        "target": "self"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          1,
+          2
+        ],
+        "on_tick": {
+          "event": "replace_barrier",
+          "target": "self"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('stair:rotation') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('stair:rotation') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('stair:rotation') == 4",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('stair:rotation') == 5",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            -90,
+            0
+          ]
+        }
+      }
+    ],
+    "events": {
+      "update_rotation": {
+        "set_block_property": {
+          "stair:rotation": "query.cardinal_facing_2d"
+        }
+      },
+      "replace_barrier": {
+        "run_command": {
+          "command": [
+            "fill ~ ~-1 ~ ~ ~-1 ~ barrier 0 replace air"
+          ]
+        }
+      },
+      "replace_air": {
+        "run_command": {
+          "command": [
+            "fill ~ ~-1 ~ ~ ~-1 ~ air 0 replace barrier"
+          ]
+        }
+      }
+    }
+  }
+}

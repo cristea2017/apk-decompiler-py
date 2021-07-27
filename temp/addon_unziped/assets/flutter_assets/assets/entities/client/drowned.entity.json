@@ -1,0 +1,28 @@
+{
+  "format_version" : "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:drowned",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "entity"
+      },
+      "textures": {
+        "default": "textures/entity/zombie/drowned"
+      },
+      "geometry": {
+        "default": "geometry.zombie.drowned",
+        "armor1": "geometry.humanoid.armor1",
+        "armor2": "geometry.humanoid.armor2"
+      },
+      "render_controllers": [
+        "controller.render.translucence"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 48
+      }
+    }
+  }
+}

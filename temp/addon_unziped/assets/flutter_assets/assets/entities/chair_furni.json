@@ -1,0 +1,126 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:chair",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:shulker_light_blue": {
+        "minecraft:variant": {
+          "value": 12
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "furnicraft",
+          "player"
+        ]
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:movement": {
+        "value": 0,
+        "max": 0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:fall_damage": {
+        "value": 0
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "planks:5"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "has_ability",
+                  "subject": "other",
+                  "value": "instabuild"
+                }
+              ]
+            },
+            "event": "minecraft:turn_light_blue"
+          },
+          "use_item": true
+        }
+      ],
+      "minecraft:physics": {},
+      "minecraft:navigation.walk": {},
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "interact_text": "action.interact.sit",
+        "pull_in_entities": false,
+        "seats": [
+          {
+            "position": [
+              0,
+              0.45,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:item_controllable": {
+        "control_items": "diamond_hoe"
+      },
+      "minecraft:behavior.controlled_by_player": {
+        "priority": 0
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 6,
+            "add": {
+              "component_groups": [
+                "minecraft:shulker_light_blue"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:turn_light_blue": {
+        "add": {
+          "component_groups": [
+            "minecraft:shulker_light_blue"
+          ]
+        }
+      }
+    }
+  }
+}

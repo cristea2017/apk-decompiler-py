@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pa:hadro",
+			"textures": {
+				"default": "textures/entity/ocean/hadro"
+			},
+			"materials": {
+				"default": "skeleton"
+			},
+			"geometry": {
+				"default": "geometry.hadro"
+			},
+			"render_controllers": [
+				"controller.render.translucence"
+			],
+			"spawn_egg": {
+				"base_color": "#73824b",
+				"overlay_color": "#9f9b66"
+			},
+			"animations": {
+				"walk": "animation.hadro.walk",
+				"stand": "animation.hadro.stand",
+				"run": "animation.hadro.run"
+			},
+			"scripts": {
+				"animate": [
+					"root",
+					{
+						"walk": "query.is_moving && query.modified_move_speed < 0.3"
+					},
+					{
+						"run": "query.modified_move_speed > 0.3"
+					},
+					{
+						"stand": "!query.is_moving"
+					}
+				]
+			}
+		}
+	}
+}

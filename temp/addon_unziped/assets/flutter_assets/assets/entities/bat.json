@@ -1,0 +1,74 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:bat",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "bat"
+        ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "breathesWater": true,
+        "generatesBubbles": false,
+        "breathesAir": true,
+        "suffocateTime": -1
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.9
+      },
+      "minecraft:fall_damage": {
+        "value": 0.0
+      },
+
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:navigation.float": {
+        "can_path_over_water": true,
+        "can_float": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.float_wander": {
+        "must_reach": true,
+        "priority": 2
+      },
+      "minecraft:can_fly": {
+        "value": true
+      },
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:behavior.player_ride_tamed": {
+        "speed_multiplier": 0
+      },
+      "minecraft:scale": {
+        "value": 1
+      }
+    },
+
+    "events": {
+    }
+  }
+}

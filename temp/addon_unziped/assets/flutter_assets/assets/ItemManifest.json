@@ -1,0 +1,2211 @@
+[
+  {
+    "item_name": "Structure_structure",
+    "tag": "structure",
+    "item_icon": "custom/structure.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/pumpkin.json",
+    "item_skin": "",
+    "disable": true,
+    "premium": false
+  },
+  {
+    "item_name": "Pumpkin_custom",
+    "item_icon": "custom/pumpkin.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/pumpkin.json",
+    "item_skin": "",
+    "disable": false,
+    "premium": false
+  },
+  {
+    "item_name": "Particle_particle",
+    "item_icon": "custom/particle.png",
+    "item_texture": "",
+    "item_skins_dir": "",
+    "item_icons_dir": "",
+    "item_entity_dir": "",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Texture_texture",
+    "item_icon": "custom/texture.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/elytra",
+    "item_icons_dir": "custom/icons/elytra",
+    "item_entity_dir": "",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Tree_custom",
+    "item_icon": "custom/tree.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/tree.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Projectile_custom",
+    "item_icon": "custom/projectile.png",
+    "item_texture": "",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "entities/items/projectile.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Biome_biome",
+    "item_icon": "custom/biome.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/biome.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Sound_sound",
+    "item_icon": "custom/disc.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "assets/sounds/base_sounds.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Head_custom",
+    "item_icon": "custom/head.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armor",
+    "item_icons_dir": "custom/skins/armor",
+    "item_entity_dir": "entities/items/armor.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Armor_custom",
+    "item_icon": "custom/helmet.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armor",
+    "item_icons_dir": "custom/skins/armor",
+    "item_entity_dir": "entities/items/armor.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Armor_custom",
+    "item_icon": "custom/boots.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armor",
+    "item_icons_dir": "custom/skins/armor",
+    "item_entity_dir": "entities/items/armor.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Armor_custom",
+    "item_icon": "custom/leggings.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armor",
+    "item_icons_dir": "custom/skins/armor",
+    "item_entity_dir": "entities/items/armor.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Armor_custom",
+    "item_icon": "custom/chestplate.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armor",
+    "item_icons_dir": "custom/skins/armor",
+    "item_entity_dir": "entities/items/armor.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Weapon_custom",
+    "item_icon": "custom/weapon.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/skins/armchairs",
+    "item_entity_dir": "entities/items/weapon.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Food_custom",
+    "item_icon": "custom/food.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/food.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "TNT_custom",
+    "item_icon": "custom/tnt.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/tnt.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block_animated.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block_slab.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block_slab.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block_stair.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block_stair.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block_transparent.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block_transparent.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block_crop.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block_crop.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block_sapling.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block_crop.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": false
+  },
+  {
+    "item_name": "Block_custom",
+    "item_icon": "custom/block_model.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/block_model.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Normal_custom",
+    "item_icon": "custom/items.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/normal.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Recipes_custom",
+    "item_icon": "custom/recipe.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/items/recipes.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Function_custom",
+    "item_icon": "custom/functions.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "functions/function.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Waterfog_waterfog",
+    "item_icon": "custom/waterfog.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/shield",
+    "item_icons_dir": "custom/icons/shield",
+    "item_entity_dir": "entities/items/waterfog.json",
+    "item_entity_texture": [
+      "entity/shield.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Shield_shield",
+    "item_icon": "custom/shield.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/shield",
+    "item_icons_dir": "custom/icons/shield",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "entity/shield.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Elytra_shield",
+    "item_icon": "custom/elytra.png",
+    "item_texture": "",
+    "item_skins_dir": "custom/skins/elytra",
+    "item_icons_dir": "custom/icons/elytra",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "models/armor/elytra.png",
+      "items/elytra.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Arrow_projectile",
+    "item_icon": "projectile/icons/arrow.png",
+    "item_texture": "",
+    "item_skins_dir": "projectile/arrows/skins",
+    "item_icons_dir": "projectile/arrows/icons",
+    "item_entity_dir": "projectile/file/arrow.json",
+    "item_entity_texture": [
+      "entity/arrows.png",
+      "items/arrow.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Dragon Fireball_projectile",
+    "item_icon": "projectile/icons/dragon_fireball.png",
+    "item_texture": "projectile/icons/dragon_fireball.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/dragon_fireball.json",
+    "item_entity_texture": [
+      "items/dragon_fireball.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Egg_projectile",
+    "item_icon": "projectile/icons/egg.png",
+    "item_texture": "projectile/icons/egg.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/egg.json",
+    "item_entity_texture": [
+      "items/egg.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Ender Pearl_projectile",
+    "item_icon": "projectile/icons/ender_pearl.png",
+    "item_texture": "projectile/icons/ender_pearl.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/ender_pearl.json",
+    "item_entity_texture": [
+      "items/ender_pearl.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Fireball_projectile",
+    "item_icon": "projectile/icons/fireball.png",
+    "item_texture": "projectile/icons/fireball.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/fireball.json",
+    "item_entity_texture": [
+      "items/fireball.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Shulker Bullet_projectile",
+    "item_icon": "projectile/icons/shulker_bullet.png",
+    "item_texture": "projectile/icons/shulker_bullet.png",
+    "item_skins_dir": "projectile/shulker/skins",
+    "item_icons_dir": "projectile/shulker/icons",
+    "item_entity_dir": "projectile/file/shulker_bullet.json",
+    "item_entity_texture": [
+      "entity/shulker/spark.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Small Fireball_projectile",
+    "item_icon": "projectile/icons/small_fireball.png",
+    "item_texture": "projectile/icons/small_fireball.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/small_fireball.json",
+    "item_entity_texture": [
+      "items/fireball.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Snowball_projectile",
+    "item_icon": "projectile/icons/snowball.png",
+    "item_texture": "projectile/icons/snowball.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/snowball.json",
+    "item_entity_texture": [
+      "items/snowball.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Splash Potion_projectile",
+    "item_icon": "projectile/icons/splash_potion.png",
+    "item_texture": "projectile/icons/splash_potion.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/splash_potion.json",
+    "item_entity_texture": [
+      "items/potion_bottle_splash.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Thrown Trident_projectile",
+    "item_icon": "projectile/icons/trident.png",
+    "item_texture": "projectile/icons/trident.png",
+    "item_skins_dir": "projectile/trident/skins",
+    "item_icons_dir": "projectile/trident/icons",
+    "item_entity_dir": "projectile/file/thrown_trident.json",
+    "item_entity_texture": [
+      "entity/trident.png",
+      "items/trident.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Wither Skull_projectile",
+    "item_icon": "projectile/icons/wither_skull.png",
+    "item_texture": "projectile/icons/wither_skull.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/wither_skull.json",
+    "item_entity_texture": [
+      "items/skull_wither.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Wither Skull Dangerous_projectile",
+    "item_icon": "projectile/icons/wither_skull_dangerous.png",
+    "item_texture": "projectile/icons/wither_skull_dangerous.png",
+    "item_skins_dir": "projectile/skins",
+    "item_icons_dir": "projectile/skins",
+    "item_entity_dir": "projectile/file/wither_skull_dangerous.json",
+    "item_entity_texture": [
+      "items/wither_skull_dangerous.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Rhinoceros_1_9",
+    "item_icon": "icon/rhinoceros.png",
+    "item_texture": "icon/rhinoceros.png",
+    "item_skins_dir": "custom/skins/rhinoceros",
+    "item_icons_dir": "custom/icons/rhinoceros",
+    "item_entity_dir": "entities/rhinoceros_1_9.json",
+    "item_skin": "assets/custom/icons/rhinoceros/rhinoceros1.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100067884794099",
+      "name": "Ferdino Lous"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Ankylo_1_9",
+    "item_icon": "icon/ankylo.png",
+    "item_texture": "icon/ankylo.png",
+    "item_skins_dir": "custom/skins/ankylo",
+    "item_icons_dir": "custom/icons/ankylo",
+    "item_entity_dir": "entities/ankylo_1_9.json",
+    "item_skin": "assets/custom/icons/ankylo/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Spiny_1_9",
+    "item_icon": "icon/spiny.png",
+    "item_texture": "icon/spiny.png",
+    "item_skins_dir": "custom/skins/spiny",
+    "item_icons_dir": "custom/icons/spiny",
+    "item_entity_dir": "entities/spiny_1_9.json",
+    "item_skin": "assets/custom/icons/spiny/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Trex_1_9",
+    "item_icon": "icon/trex.png",
+    "item_texture": "icon/trex.png",
+    "item_skins_dir": "custom/skins/trex",
+    "item_icons_dir": "custom/icons/trex",
+    "item_entity_dir": "entities/trex_1_9.json",
+    "item_skin": "assets/custom/icons/trex/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Tricera_1_9",
+    "item_icon": "icon/tricera.png",
+    "item_texture": "icon/tricera.png",
+    "item_skins_dir": "custom/skins/tricera",
+    "item_icons_dir": "custom/icons/tricera",
+    "item_entity_dir": "entities/tricera_1_9.json",
+    "item_skin": "assets/custom/icons/tricera/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Tylosaur_1_9",
+    "item_icon": "icon/tylosaur.png",
+    "item_texture": "icon/tylosaur.png",
+    "item_skins_dir": "custom/skins/tylosaur",
+    "item_icons_dir": "custom/icons/tylosaur",
+    "item_entity_dir": "entities/tylosaur_1_9.json",
+    "item_skin": "assets/custom/icons/tylosaur/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Augustolophus_1_9",
+    "item_icon": "icon/augustolophus.png",
+    "item_texture": "icon/augustolophus.png",
+    "item_skins_dir": "custom/skins/augustolophus",
+    "item_icons_dir": "custom/icons/augustolophus",
+    "item_entity_dir": "entities/augustolophus_1_9.json",
+    "item_skin": "assets/custom/icons/augustolophus/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Bracheo_1_9",
+    "item_icon": "icon/bracheo.png",
+    "item_texture": "icon/bracheo.png",
+    "item_skins_dir": "custom/skins/bracheo",
+    "item_icons_dir": "custom/icons/bracheo",
+    "item_entity_dir": "entities/bracheo_1_9.json",
+    "item_skin": "assets/custom/icons/bracheo/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Hadro_1_9",
+    "item_icon": "icon/hadro.png",
+    "item_texture": "icon/hadro.png",
+    "item_skins_dir": "custom/skins/hadro",
+    "item_icons_dir": "custom/icons/hadro",
+    "item_entity_dir": "entities/hadro_1_9.json",
+    "item_skin": "assets/custom/icons/hadro/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Lampeo_1_9",
+    "item_icon": "icon/lampeo.png",
+    "item_texture": "icon/lampeo.png",
+    "item_skins_dir": "custom/skins/lampeo",
+    "item_icons_dir": "custom/icons/lampeo",
+    "item_entity_dir": "entities/lampeo_1_9.json",
+    "item_skin": "assets/custom/icons/lampeo/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Ourano_1_9",
+    "item_icon": "icon/ourano.png",
+    "item_texture": "icon/ourano.png",
+    "item_skins_dir": "custom/skins/ourano",
+    "item_icons_dir": "custom/icons/ourano",
+    "item_entity_dir": "entities/ourano_1_9.json",
+    "item_skin": "assets/custom/icons/ourano/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Stegosaurus_1_9",
+    "item_icon": "icon/stegosaurus.png",
+    "item_texture": "icon/stegosaurus.png",
+    "item_skins_dir": "custom/skins/stegosaurus",
+    "item_icons_dir": "custom/icons/stegosaurus",
+    "item_entity_dir": "entities/stegosaurus_1_9.json",
+    "item_skin": "assets/custom/icons/stegosaurus/default.png",
+    "credit": {
+      "type": "facebook profile",
+      "id": "100005304781364",
+      "name": "Fares Koura"
+    },
+    "tag": "Dinosaurs",
+    "premium": false
+  },
+  {
+    "item_name": "Armor Stand",
+    "item_icon": "icon/armor_stand.png",
+    "item_texture": "icon/armor_stand.png",
+    "item_skins_dir": "custom/skins/armor_stand",
+    "item_icons_dir": "custom/icons/armor_stand",
+    "item_entity_dir": "entities/armor_stand.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "armor_stand.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Axolotl",
+    "item_icon": "icon/axolotl.png",
+    "item_texture": "icon/axolotl.png",
+    "item_skins_dir": "custom/skins/axolotl",
+    "item_icons_dir": "custom/icons/axolotl",
+    "item_entity_dir": "entities/axolotl.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "axolotl/axolotl_blue.png",
+      "axolotl/axolotl_cyan.png",
+      "axolotl/axolotl_gold.png",
+      "axolotl/axolotl_lucy.png",
+      "axolotl/axolotl_wild.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Glow Squid",
+    "item_icon": "icon/glow_squid.png",
+    "item_texture": "icon/glow_squid.png",
+    "item_skins_dir": "custom/skins/glow_squid",
+    "item_icons_dir": "custom/icons/glow_squid",
+    "item_entity_dir": "entities/glow_squid.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "glow_squid/glow_squid.tga"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Goat",
+    "item_icon": "icon/goat.png",
+    "item_texture": "icon/goat.png",
+    "item_skins_dir": "custom/skins/goat",
+    "item_icons_dir": "custom/icons/goat",
+    "item_entity_dir": "entities/goat.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "goat/goat.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Boat",
+    "item_icon": "icon/boat.png",
+    "item_texture": "icon/boat.png",
+    "item_skins_dir": "custom/skins/boat",
+    "item_icons_dir": "custom/icons/boat",
+    "item_entity_dir": "entities/boat.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "boat/boat_acacia.png",
+      "boat/boat_birch.png",
+      "boat/boat_darkoak.png",
+      "boat/boat_jungle.png",
+      "boat/boat_oak.png",
+      "boat/boat_spruce.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Hoglin",
+    "item_icon": "icon/hoglin.png",
+    "item_texture": "icon/hoglin.png",
+    "item_skins_dir": "custom/skins/hoglin",
+    "item_icons_dir": "custom/icons/hoglin",
+    "item_entity_dir": "entities/hoglin.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "hoglin/hoglin.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Zoglin",
+    "item_icon": "icon/zoglin.png",
+    "item_texture": "icon/zoglin.png",
+    "item_skins_dir": "custom/skins/zoglin",
+    "item_icons_dir": "custom/icons/zoglin",
+    "item_entity_dir": "entities/zoglin.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "zoglin/zoglin.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Piglin",
+    "item_icon": "icon/piglin.png",
+    "item_texture": "icon/piglin.png",
+    "item_skins_dir": "custom/skins/piglin",
+    "item_icons_dir": "custom/icons/piglin",
+    "item_entity_dir": "entities/piglin.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "piglin/piglin.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Piglin Brute",
+    "item_icon": "icon/brute.png",
+    "item_texture": "icon/brute.png",
+    "item_skins_dir": "custom/skins/piglin",
+    "item_icons_dir": "custom/icons/piglin",
+    "item_entity_dir": "entities/piglin_brute.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "piglin/piglin_brute.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Strider",
+    "item_icon": "icon/strider.png",
+    "item_texture": "icon/strider.png",
+    "item_skins_dir": "custom/skins/strider",
+    "item_icons_dir": "custom/icons/strider",
+    "item_entity_dir": "entities/strider.json",
+    "item_skin": "",
+    "item_entity_texture": [
+      "strider/strider.png",
+      "strider/strider_saddled.png",
+      "strider/strider_suffocated.png",
+      "strider/strider_suffocated_saddled.png"
+    ],
+    "premium": false
+  },
+  {
+    "item_name": "Npc_1_9",
+    "item_icon": "icon/npc.png",
+    "item_texture": "icon/npc.png",
+    "item_skins_dir": "custom/armors",
+    "item_icons_dir": "custom/armors",
+    "item_entity_dir": "entities/npc_1_9.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Eagle_1_9",
+    "item_icon": "icon/eagle.png",
+    "item_texture": "icon/eagle.png",
+    "item_skins_dir": "custom/skins/eagle",
+    "item_icons_dir": "custom/icons/eagle",
+    "item_entity_dir": "entities/eagle_1_9.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Phoenix_1_9",
+    "item_icon": "icon/phoenix.png",
+    "item_texture": "icon/phoenix.png",
+    "item_skins_dir": "custom/skins/phoenix",
+    "item_icons_dir": "custom/icons/phoenix",
+    "item_entity_dir": "entities/phoenix_1_9.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Seagull_1_9",
+    "item_icon": "icon/seagull.png",
+    "item_texture": "icon/seagull.png",
+    "item_skins_dir": "custom/skins/seagull",
+    "item_icons_dir": "custom/icons/seagull",
+    "item_entity_dir": "entities/seagull_1_9.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Vulture_1_9",
+    "item_icon": "icon/vulture.png",
+    "item_texture": "icon/vulture.png",
+    "item_skins_dir": "custom/skins/vulture",
+    "item_icons_dir": "custom/icons/vulture",
+    "item_entity_dir": "entities/vulture_1_9.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Armchairs_furni",
+    "item_icon": "icon/armchairs.png",
+    "item_texture": "icon/armchairs.png",
+    "item_skins_dir": "custom/skins/armchairs",
+    "item_icons_dir": "custom/icons/armchairs",
+    "item_entity_dir": "entities/armchairs_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Bat",
+    "item_icon": "icon/bat.png",
+    "item_texture": "icon/bat.png",
+    "item_skins_dir": "custom/skins/bat",
+    "item_icons_dir": "custom/icons/bat",
+    "item_entity_dir": "entities/bat.json",
+    "item_entity_texture": [
+      "bat.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Bee",
+    "item_icon": "icon/bee.png",
+    "item_texture": "icon/bee.png",
+    "item_skins_dir": "custom/skins/bee",
+    "item_icons_dir": "custom/icons/bee",
+    "item_entity_dir": "entities/bee.json",
+    "item_entity_texture": [
+      "bee/bee_angry_nectar.png",
+      "bee/bee_angry.png",
+      "bee/bee_nectar.png",
+      "bee/bee.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Cat",
+    "item_icon": "icon/cat.png",
+    "item_texture": "icon/cat.png",
+    "item_skins_dir": "custom/skins/cat",
+    "item_icons_dir": "custom/icons/cat",
+    "item_entity_dir": "entities/cat.json",
+    "item_entity_texture": [
+      "cat/ragdoll.png",
+      "cat/red.png",
+      "cat/allblackcat.png",
+      "cat/blackcat.png",
+      "cat/redtabby.png",
+      "cat/siamese.png",
+      "cat/calico.png",
+      "cat/britishshorthair.png",
+      "cat/siamesecat.png",
+      "cat/tabby.png",
+      "cat/jellie.png",
+      "cat/persian.png",
+      "cat/tuxedo.png",
+      "cat/white.png",
+      "cat/ragdoll_tame.tga",
+      "cat/red_tame.tga",
+      "cat/allblackcat_tame.tga",
+      "cat/blackcat_tame.tga",
+      "cat/redtabby_tame.tga",
+      "cat/siamese_tame.tga",
+      "cat/calico_tame.tga",
+      "cat/britishshorthair_tame.tga",
+      "cat/siamesecat_tame.tga",
+      "cat/tabby_tame.tga",
+      "cat/jellie_tame.tga",
+      "cat/persian_tame.tga",
+      "cat/tuxedo_tame.tga",
+      "cat/white_tame.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Fox",
+    "item_icon": "icon/fox.png",
+    "item_texture": "icon/fox.png",
+    "item_skins_dir": "custom/skins/fox",
+    "item_icons_dir": "custom/icons/fox",
+    "item_entity_dir": "entities/fox.json",
+    "item_entity_texture": [
+      "fox/arctic_fox.png",
+      "fox/fox.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Panda",
+    "item_icon": "icon/panda.png",
+    "item_texture": "icon/panda.png",
+    "item_skins_dir": "custom/skins/panda",
+    "item_icons_dir": "custom/icons/panda",
+    "item_entity_dir": "entities/panda.json",
+    "item_entity_texture": [
+      "panda/panda_aggressive.png",
+      "panda/panda_brown.png",
+      "panda/panda_lazy.png",
+      "panda/panda_playful.png",
+      "panda/panda_sneezy.png",
+      "panda/panda_worried.png",
+      "panda/panda.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Pillager",
+    "item_icon": "icon/pillager.png",
+    "item_texture": "icon/pillager.png",
+    "item_skins_dir": "custom/skins/pillager",
+    "item_icons_dir": "custom/icons/pillager",
+    "item_entity_dir": "entities/pillager.json",
+    "item_entity_texture": [
+      "pillager.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Ravager",
+    "item_icon": "icon/ravager.png",
+    "item_texture": "icon/ravager.png",
+    "item_skins_dir": "custom/skins/ravager",
+    "item_icons_dir": "custom/icons/ravager",
+    "item_entity_dir": "entities/ravager.json",
+    "item_entity_texture": [
+      "illager/ravager.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Wandering Trader",
+    "item_icon": "icon/wandering_trader.png",
+    "item_texture": "icon/wandering_trader.png",
+    "item_skins_dir": "custom/skins/wandering_trader",
+    "item_icons_dir": "custom/icons/wandering_trader",
+    "item_entity_dir": "entities/wandering_trader.json",
+    "item_entity_texture": [
+      "wandering_trader.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Bench_furni",
+    "item_icon": "icon/bench.png",
+    "item_texture": "icon/bench.png",
+    "item_skins_dir": "custom/skins/furni",
+    "item_icons_dir": "custom/icons/bench",
+    "item_entity_dir": "entities/bench_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Big Table_furni",
+    "item_icon": "icon/big_table.png",
+    "item_texture": "icon/big_table.png",
+    "item_skins_dir": "custom/skins/furni",
+    "item_icons_dir": "custom/icons/big_table",
+    "item_entity_dir": "entities/big_table_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Blaze",
+    "item_icon": "icon/blaze.png",
+    "item_texture": "icon/blaze.png",
+    "item_skins_dir": "custom/skins/blaze",
+    "item_icons_dir": "custom/icons/blaze",
+    "item_entity_dir": "entities/blaze.json",
+    "item_entity_texture": [
+      "blaze.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Cachalote_1_9",
+    "item_icon": "icon/cachalote.png",
+    "item_texture": "icon/cachalote.png",
+    "item_skins_dir": "custom/skins/cachalote",
+    "item_icons_dir": "custom/icons/cachalote",
+    "item_entity_dir": "entities/cachalote_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Camel_zoo",
+    "item_icon": "icon/camel.png",
+    "item_texture": "icon/camel.png",
+    "item_skins_dir": "custom/skins/camel",
+    "item_icons_dir": "custom/icons/camel",
+    "item_entity_dir": "entities/camel_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Cavespider",
+    "item_icon": "icon/cave_spider.png",
+    "item_texture": "icon/cave_spider.png",
+    "item_skins_dir": "custom/skins/spider",
+    "item_icons_dir": "custom/icons/spider",
+    "item_entity_dir": "entities/cave_spider.json",
+    "item_entity_texture": [
+      "spider/cave_spider.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Chair_furni",
+    "item_icon": "icon/chair.png",
+    "item_texture": "icon/chair.png",
+    "item_skins_dir": "custom/skins/furni",
+    "item_icons_dir": "custom/icons/chair",
+    "item_entity_dir": "entities/chair_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Chicken",
+    "item_icon": "icon/chicken.png",
+    "item_texture": "icon/chicken.png",
+    "item_skins_dir": "custom/skins/chicken",
+    "item_icons_dir": "custom/icons/chicken",
+    "item_entity_dir": "entities/chicken.json",
+    "item_entity_texture": [
+      "chicken.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Christmas tree_furni",
+    "item_icon": "icon/christmas_tree.png",
+    "item_texture": "icon/christmas_tree.png",
+    "item_skins_dir": "custom/skins/christmas_tree",
+    "item_icons_dir": "custom/icons/christmas_tree",
+    "item_entity_dir": "entities/christmas_tree_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Closet_furni",
+    "item_icon": "icon/closet.png",
+    "item_texture": "icon/closet.png",
+    "item_skins_dir": "custom/skins/closet",
+    "item_icons_dir": "custom/icons/closet",
+    "item_entity_dir": "entities/closet_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Colorful Gifts_furni",
+    "item_icon": "icon/colorful_gifts.png",
+    "item_texture": "icon/colorful_gifts.png",
+    "item_skins_dir": "custom/skins/colorful_gifts",
+    "item_icons_dir": "custom/icons/colorful_gifts",
+    "item_entity_dir": "entities/colorful_gifts_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Cow",
+    "item_icon": "icon/cow.png",
+    "item_texture": "icon/cow.png",
+    "item_skins_dir": "custom/skins/cow",
+    "item_icons_dir": "custom/icons/cow",
+    "item_entity_dir": "entities/cow.json",
+    "item_entity_texture": [
+      "cow/cow.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Crab_1_9",
+    "item_icon": "icon/crab.png",
+    "item_texture": "icon/crab.png",
+    "item_skins_dir": "custom/skins/crab",
+    "item_icons_dir": "custom/icons/crab",
+    "item_entity_dir": "entities/crab_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Creeper",
+    "item_icon": "icon/creeper.png",
+    "item_texture": "icon/creeper.png",
+    "item_skins_dir": "custom/skins/creeper",
+    "item_icons_dir": "custom/icons/creeper",
+    "item_entity_dir": "entities/creeper.json",
+    "item_entity_texture": [
+      "creeper/creeper.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Crocodile_zoo",
+    "item_icon": "icon/crocodile.png",
+    "item_texture": "icon/crocodile.png",
+    "item_skins_dir": "custom/skins/crocodile",
+    "item_icons_dir": "custom/icons/crocodile",
+    "item_entity_dir": "entities/crocodile_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Deer_zoo",
+    "item_icon": "icon/deer.png",
+    "item_texture": "icon/deer.png",
+    "item_skins_dir": "custom/skins/deer",
+    "item_icons_dir": "custom/icons/deer",
+    "item_entity_dir": "entities/deer_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Dolphin",
+    "item_icon": "icon/dolphin.png",
+    "item_texture": "icon/dolphin.png",
+    "item_skins_dir": "custom/skins/dolphin",
+    "item_icons_dir": "custom/icons/dolphin",
+    "item_entity_dir": "entities/dolphin.json",
+    "item_entity_texture": [
+      "dolphin.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Donkey",
+    "item_icon": "icon/donkey.png",
+    "item_texture": "icon/donkey.png",
+    "item_skins_dir": "custom/skins/horse2",
+    "item_icons_dir": "custom/icons/horse2",
+    "item_entity_dir": "entities/donkey.json",
+    "item_entity_texture": [
+      "horse/donkey.png",
+      "horse2/donkey.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Drone_furni",
+    "item_icon": "icon/drone.png",
+    "item_texture": "icon/drone.png",
+    "item_skins_dir": "custom/skins/drone",
+    "item_icons_dir": "custom/icons/drone",
+    "item_entity_dir": "entities/drone_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Drowned",
+    "item_icon": "icon/drowned.png",
+    "item_texture": "icon/drowned.png",
+    "item_skins_dir": "custom/skins/drowned",
+    "item_icons_dir": "custom/icons/drowned",
+    "item_entity_dir": "entities/drowned.json",
+    "item_entity_texture": [
+      "zombie/drowned.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Elder Guardian",
+    "item_icon": "icon/elder_guardian.png",
+    "item_texture": "icon/elder_guardian.png",
+    "item_skins_dir": "custom/skins/guardian",
+    "item_icons_dir": "custom/icons/guardian",
+    "item_entity_dir": "entities/elder_guardian.json",
+    "item_entity_texture": [
+      "guardian_elder.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Elephant_zoo",
+    "item_icon": "icon/elephant.png",
+    "item_texture": "icon/elephant.png",
+    "item_skins_dir": "custom/skins/elephant",
+    "item_icons_dir": "custom/icons/elephant",
+    "item_entity_dir": "entities/elephant_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Enderdragon",
+    "item_icon": "icon/enderdragon.png",
+    "item_texture": "icon/enderdragon.png",
+    "item_skins_dir": "custom/skins/enderdragon",
+    "item_icons_dir": "custom/icons/enderdragon",
+    "item_entity_dir": "entities/ender_dragon.json",
+    "item_entity_texture": [
+      "dragon/dragon.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Enderman",
+    "item_icon": "icon/enderman.png",
+    "item_texture": "icon/enderman.png",
+    "item_skins_dir": "custom/skins/enderman",
+    "item_icons_dir": "custom/icons/enderman",
+    "item_entity_dir": "entities/enderman.json",
+    "item_entity_texture": [
+      "enderman/enderman.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Endermite",
+    "item_icon": "icon/endermite.png",
+    "item_texture": "icon/endermite.png",
+    "item_skins_dir": "custom/skins/endermite",
+    "item_icons_dir": "custom/icons/endermite",
+    "item_entity_dir": "entities/endermite.json",
+    "item_entity_texture": [
+      "endermite.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Evocation Illager",
+    "item_icon": "icon/evocation_illager.png",
+    "item_texture": "icon/evocation_illager.png",
+    "item_skins_dir": "custom/skins/evocation_illager",
+    "item_icons_dir": "custom/icons/evocation_illager",
+    "item_entity_dir": "entities/evocation_illager.json",
+    "item_entity_texture": [
+      "illager/evoker.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Fish",
+    "item_icon": "icon/fish.png",
+    "item_texture": "icon/fish.png",
+    "item_skins_dir": "custom/skins/fish",
+    "item_icons_dir": "custom/icons/fish",
+    "item_entity_dir": "entities/fish.json",
+    "item_entity_texture": [
+      "fish/fish.png",
+      "fish/cod.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Fishleon_1_9",
+    "item_icon": "icon/fishleon.png",
+    "item_texture": "icon/fishleon.png",
+    "item_skins_dir": "custom/skins/fishleon",
+    "item_icons_dir": "custom/icons/fishleon",
+    "item_entity_dir": "entities/fishleon_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Frog_zoo",
+    "item_icon": "icon/frog.png",
+    "item_texture": "icon/frog.png",
+    "item_skins_dir": "custom/skins/frog",
+    "item_icons_dir": "custom/icons/frog",
+    "item_entity_dir": "entities/frog_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Ghast",
+    "item_icon": "icon/ghast.png",
+    "item_texture": "icon/ghast.png",
+    "item_skins_dir": "custom/skins/ghast",
+    "item_icons_dir": "custom/icons/ghast",
+    "item_entity_dir": "entities/ghast.json",
+    "item_entity_texture": [
+      "ghast/ghast.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Guardian",
+    "item_icon": "icon/guardian.png",
+    "item_texture": "icon/guardian.png",
+    "item_skins_dir": "custom/skins/guardian",
+    "item_icons_dir": "custom/icons/guardian",
+    "item_entity_dir": "entities/guardian.json",
+    "item_entity_texture": [
+      "guardian.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Hammerhead Shark_1_9",
+    "item_icon": "icon/hammerhead_shark.png",
+    "item_texture": "icon/hammerhead_shark.png",
+    "item_skins_dir": "custom/skins/hammerhead_shark",
+    "item_icons_dir": "custom/icons/hammerhead_shark",
+    "item_entity_dir": "entities/hammerhead_shark_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Horse",
+    "item_icon": "icon/horse.png",
+    "item_texture": "icon/horse.png",
+    "item_skins_dir": "custom/skins/horse2",
+    "item_icons_dir": "custom/icons/horse2",
+    "item_entity_dir": "entities/horse.json",
+    "item_entity_texture": [
+      "horse/horse_black.png",
+      "horse/horse_brown.png",
+      "horse/horse_chestnut.png",
+      "horse/horse_creamy.png",
+      "horse/horse_darkbrown.png",
+      "horse/horse_gray.png",
+      "horse/horse_white.png",
+      "horse2/horse_black.png",
+      "horse2/horse_brown.png",
+      "horse2/horse_chestnut.png",
+      "horse2/horse_creamy.png",
+      "horse2/horse_darkbrown.png",
+      "horse2/horse_gray.png",
+      "horse2/horse_white.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Husk",
+    "item_icon": "icon/husk.png",
+    "item_texture": "icon/husk.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "entities/husk.json",
+    "item_entity_texture": [
+      "zombie/husk.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Irongolem",
+    "item_icon": "icon/irongolem.png",
+    "item_texture": "icon/irongolem.png",
+    "item_skins_dir": "custom/skins/irongolem",
+    "item_icons_dir": "custom/icons/irongolem",
+    "item_entity_dir": "entities/iron_golem.json",
+    "item_entity_texture": [
+      "iron_golem.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Laptop_furni",
+    "item_icon": "icon/laptop.png",
+    "item_texture": "icon/laptop.png",
+    "item_skins_dir": "custom/skins/laptop",
+    "item_icons_dir": "custom/icons/laptop",
+    "item_entity_dir": "entities/laptop_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Lgallardo_1_9",
+    "item_icon": "icon/lgallardo_black.png",
+    "item_texture": "icon/lgallardo_black.png",
+    "item_skins_dir": "custom/skins/lgallardo",
+    "item_icons_dir": "custom/icons/lgallardo",
+    "item_entity_dir": "entities/lgallardo_black_1_9.json",
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Lion_zoo",
+    "item_icon": "icon/lion.png",
+    "item_texture": "icon/lion.png",
+    "item_skins_dir": "custom/skins/lion",
+    "item_icons_dir": "custom/icons/lion",
+    "item_entity_dir": "entities/lion_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Llama",
+    "item_icon": "icon/llama.png",
+    "item_texture": "icon/llama.png",
+    "item_skins_dir": "custom/skins/llama",
+    "item_icons_dir": "custom/icons/llama",
+    "item_entity_dir": "entities/llama.json",
+    "item_entity_texture": [
+      "llama/llama_brown.png",
+      "llama/llama_creamy.png",
+      "llama/llama_gray.png",
+      "llama/llama_white.png",
+      "llama/llama.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Magmacube",
+    "item_icon": "icon/magmacube.png",
+    "item_texture": "icon/magmacube.png",
+    "item_skins_dir": "custom/skins/magmacube",
+    "item_icons_dir": "custom/icons/magmacube",
+    "item_entity_dir": "entities/magma_cube.json",
+    "item_entity_texture": [
+      "slime/magmacube.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Mooshroom",
+    "item_icon": "icon/mooshroom.png",
+    "item_texture": "icon/mooshroom.png",
+    "item_skins_dir": "custom/skins/cow",
+    "item_icons_dir": "custom/icons/cow",
+    "item_entity_dir": "entities/mooshroom.json",
+    "item_entity_texture": [
+      "cow/mooshroom.png",
+      "cow/brown_mooshroom"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Mouse_zoo",
+    "item_icon": "icon/mouse.png",
+    "item_texture": "icon/mouse.png",
+    "item_skins_dir": "custom/skins/mouse",
+    "item_icons_dir": "custom/icons/mouse",
+    "item_entity_dir": "entities/mouse_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Mule",
+    "item_icon": "icon/mule.png",
+    "item_texture": "icon/mule.png",
+    "item_skins_dir": "custom/skins/horse2",
+    "item_icons_dir": "custom/icons/horse2",
+    "item_entity_dir": "entities/mule.json",
+    "item_entity_texture": [
+      "horse/mule.png",
+      "horse2/mule.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Ocelot",
+    "item_icon": "icon/ocelot.png",
+    "item_texture": "icon/ocelot.png",
+    "item_skins_dir": "custom/skins/ocelot",
+    "item_icons_dir": "custom/icons/ocelot",
+    "item_entity_dir": "entities/ocelot.json",
+    "item_entity_texture": [
+      "cat/ocelot.png",
+      "cat/ocelot_tame.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Octopus_1_9",
+    "item_icon": "icon/octopus.png",
+    "item_texture": "icon/octopus.png",
+    "item_skins_dir": "custom/skins/octopus",
+    "item_icons_dir": "custom/icons/octopus",
+    "item_entity_dir": "entities/octopus_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Panther_zoo",
+    "item_icon": "icon/panther.png",
+    "item_texture": "icon/panther.png",
+    "item_skins_dir": "custom/skins/panther",
+    "item_icons_dir": "custom/icons/panther",
+    "item_entity_dir": "entities/panther_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Parrot",
+    "item_icon": "icon/parrot.png",
+    "item_texture": "icon/parrot.png",
+    "item_skins_dir": "custom/skins/parrot",
+    "item_icons_dir": "custom/icons/parrot",
+    "item_entity_dir": "entities/parrot.json",
+    "item_entity_texture": [
+      "parrot/parrot_blue.png",
+      "parrot/parrot_green.png",
+      "parrot/parrot_grey.png",
+      "parrot/parrot_red_blue.png",
+      "parrot/parrot_yellow_blue.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Penguin_zoo",
+    "item_icon": "icon/penguin.png",
+    "item_texture": "icon/penguin.png",
+    "item_skins_dir": "custom/skins/penguin",
+    "item_icons_dir": "custom/icons/penguin",
+    "item_entity_dir": "entities/penguin_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Phantom",
+    "item_icon": "icon/phantom.png",
+    "item_texture": "icon/phantom.png",
+    "item_skins_dir": "custom/skins/phantom",
+    "item_icons_dir": "custom/icons/phantom",
+    "item_entity_dir": "entities/phantom.json",
+    "item_entity_texture": [
+      "phantom.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Piano_furni",
+    "item_icon": "icon/piano.png",
+    "item_texture": "icon/piano.png",
+    "item_skins_dir": "custom/skins/piano",
+    "item_icons_dir": "custom/icons/piano",
+    "item_entity_dir": "entities/piano_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Pig",
+    "item_icon": "icon/pig.png",
+    "item_texture": "icon/pig.png",
+    "item_skins_dir": "custom/skins/pig/",
+    "item_icons_dir": "custom/icons/pig/",
+    "item_entity_dir": "entities/pig.json",
+    "item_entity_texture": [
+      "pig/pig.png",
+      "pig/pig_saddle.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Piranha_1_9",
+    "item_icon": "icon/piranha.png",
+    "item_texture": "icon/piranha.png",
+    "item_skins_dir": "custom/skins/piranha",
+    "item_icons_dir": "custom/icons/piranha",
+    "item_entity_dir": "entities/piranha_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Polarbear",
+    "item_icon": "icon/polarbear.png",
+    "item_texture": "icon/polarbear.png",
+    "item_skins_dir": "custom/skins/polarbear",
+    "item_icons_dir": "custom/icons/polarbear",
+    "item_entity_dir": "entities/polar_bear.json",
+    "item_entity_texture": [
+      "polarbear.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Pufferfish",
+    "item_icon": "icon/pufferfish.png",
+    "item_texture": "icon/pufferfish.png",
+    "item_skins_dir": "custom/skins/pufferfish",
+    "item_icons_dir": "custom/icons/pufferfish",
+    "item_entity_dir": "entities/pufferfish.json",
+    "item_entity_texture": [
+      "fish/pufferfish.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Rabbit",
+    "item_icon": "icon/rabbit.png",
+    "item_texture": "icon/rabbit.png",
+    "item_skins_dir": "custom/skins/rabbit",
+    "item_icons_dir": "custom/icons/rabbit",
+    "item_entity_dir": "entities/rabbit.json",
+    "item_entity_texture": [
+      "rabbit/blackrabbit.png",
+      "rabbit/brown.png",
+      "rabbit/gold.png",
+      "rabbit/salt.png",
+      "rabbit/toast.png",
+      "rabbit/white_splotched.png",
+      "rabbit/white.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Salmon",
+    "item_icon": "icon/salmon.png",
+    "item_texture": "icon/salmon.png",
+    "item_skins_dir": "custom/skins/salmon",
+    "item_icons_dir": "custom/icons/salmon",
+    "item_entity_dir": "entities/salmon.json",
+    "item_entity_texture": [
+      "fish/salmon.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Shark_1_9",
+    "item_icon": "icon/shark.png",
+    "item_texture": "icon/shark.png",
+    "item_skins_dir": "custom/skins/shark",
+    "item_icons_dir": "custom/icons/shark",
+    "item_entity_dir": "entities/shark_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Sheep",
+    "item_icon": "icon/sheep.png",
+    "item_texture": "icon/sheep.png",
+    "item_skins_dir": "custom/skins/sheep",
+    "item_icons_dir": "custom/icons/sheep",
+    "item_entity_dir": "entities/sheep.json",
+    "item_entity_texture": [
+      "sheep/sheep.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Shrimp_1_9",
+    "item_icon": "icon/shrimp.png",
+    "item_texture": "icon/shrimp.png",
+    "item_skins_dir": "custom/skins/shrimp",
+    "item_icons_dir": "custom/icons/shrimp",
+    "item_entity_dir": "entities/shrimp_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Shulker",
+    "item_icon": "icon/shulker.png",
+    "item_texture": "icon/shulker.png",
+    "item_skins_dir": "custom/skins/shulker",
+    "item_icons_dir": "custom/icons/shulker",
+    "item_entity_dir": "entities/shulker.json",
+    "item_entity_texture": [
+      "shulker/shulker_black.png",
+      "shulker/shulker_blue.png",
+      "shulker/shulker_brown.png",
+      "shulker/shulker_cyan.png",
+      "shulker/shulker_gray.png",
+      "shulker/shulker_green.png",
+      "shulker/shulker_light_blue.png",
+      "shulker/shulker_lime.png",
+      "shulker/shulker_magenta.png",
+      "shulker/shulker_orange.png",
+      "shulker/shulker_pink.png",
+      "shulker/shulker_purple.png",
+      "shulker/shulker_red.png",
+      "shulker/shulker_silver.png",
+      "shulker/shulker_undyed.png",
+      "shulker/shulker_white.png",
+      "shulker/shulker_yellow.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Silverfish",
+    "item_icon": "icon/silverfish.png",
+    "item_texture": "icon/silverfish.png",
+    "item_skins_dir": "custom/skins/silverfish",
+    "item_icons_dir": "custom/icons/silverfish",
+    "item_entity_dir": "entities/silverfish.json",
+    "item_entity_texture": [
+      "silverfish.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Skeleton",
+    "item_icon": "icon/skeleton.png",
+    "item_texture": "icon/skeleton.png",
+    "item_skins_dir": "custom/skins/skeleton",
+    "item_icons_dir": "custom/icons/skeleton",
+    "item_entity_dir": "entities/skeleton.json",
+    "item_entity_texture": [
+      "skeleton/skeleton.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Skeleton horse",
+    "item_icon": "icon/skeleton_horse.png",
+    "item_texture": "icon/skeleton_horse.png",
+    "item_skins_dir": "custom/skins/horse2",
+    "item_icons_dir": "custom/icons/horse2",
+    "item_entity_dir": "entities/skeleton_horse.json",
+    "item_entity_texture": [
+      "horse/horse_skeleton.png",
+      "horse2/horse_skeleton.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Slime",
+    "item_icon": "icon/slime.png",
+    "item_texture": "icon/slime.png",
+    "item_skins_dir": "custom/skins/slime",
+    "item_icons_dir": "custom/icons/slime",
+    "item_entity_dir": "entities/slime.json",
+    "item_entity_texture": [
+      "slime/slime.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Small Table_furni",
+    "item_icon": "icon/small_table.png",
+    "item_texture": "icon/small_table.png",
+    "item_skins_dir": "custom/skins/furni",
+    "item_icons_dir": "custom/icons/small_table",
+    "item_entity_dir": "entities/small_table_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Snowgolem",
+    "item_icon": "icon/snowgolem.png",
+    "item_texture": "icon/snowgolem.png",
+    "item_skins_dir": "custom/skins/snowgolem",
+    "item_icons_dir": "custom/icons/snowgolem",
+    "item_entity_dir": "entities/snow_golem.json",
+    "item_entity_texture": [
+      "snow_golem.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Spider",
+    "item_icon": "icon/spider.png",
+    "item_texture": "icon/spider.png",
+    "item_skins_dir": "custom/skins/spider",
+    "item_icons_dir": "custom/icons/spider",
+    "item_entity_dir": "entities/spider.json",
+    "item_entity_texture": [
+      "spider/spider.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Squid",
+    "item_icon": "icon/squid.png",
+    "item_texture": "icon/squid.png",
+    "item_skins_dir": "custom/skins/squid",
+    "item_icons_dir": "custom/icons/squid",
+    "item_entity_dir": "entities/squid.json",
+    "item_entity_texture": [
+      "squid.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Starfish_1_9",
+    "item_icon": "icon/starfish.png",
+    "item_texture": "icon/starfish.png",
+    "item_skins_dir": "custom/skins/starfish",
+    "item_icons_dir": "custom/icons/starfish",
+    "item_entity_dir": "entities/starfish_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Stingray_1_9",
+    "item_icon": "icon/stingray.png",
+    "item_texture": "icon/stingray.png",
+    "item_skins_dir": "custom/skins/stingray",
+    "item_icons_dir": "custom/icons/stingray",
+    "item_entity_dir": "entities/stingray_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Stray",
+    "item_icon": "icon/stray.png",
+    "item_texture": "icon/stray.png",
+    "item_skins_dir": "custom/skins/skeleton",
+    "item_icons_dir": "custom/icons/skeleton",
+    "item_entity_dir": "entities/stray.json",
+    "item_entity_texture": [
+      "skeleton/stray.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Swordfish_1_9",
+    "item_icon": "icon/swordfish.png",
+    "item_texture": "icon/swordfish.png",
+    "item_skins_dir": "custom/skins/swordfish",
+    "item_icons_dir": "custom/icons/swordfish",
+    "item_entity_dir": "entities/swordfish_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Tiger_zoo",
+    "item_icon": "icon/tiger.png",
+    "item_texture": "icon/tiger.png",
+    "item_skins_dir": "custom/skins/tiger",
+    "item_icons_dir": "custom/icons/tiger",
+    "item_entity_dir": "entities/tiger_zoo.json",
+    "item_skin": "",
+    "premium": false,
+    "disable": true
+  },
+  {
+    "item_name": "Tivi_furni",
+    "item_icon": "icon/tivi.png",
+    "item_texture": "icon/tivi.png",
+    "item_skins_dir": "custom/skins/tivi",
+    "item_icons_dir": "custom/icons/tivi",
+    "item_entity_dir": "entities/tivi_furni.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Turtle",
+    "item_icon": "icon/turtle.png",
+    "item_texture": "icon/turtle.png",
+    "item_skins_dir": "custom/skins/turtle",
+    "item_icons_dir": "custom/icons/turtle",
+    "item_entity_dir": "entities/turtle.json",
+    "item_entity_texture": [
+      "sea_turtle.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Vex",
+    "item_icon": "icon/vex.png",
+    "item_texture": "icon/vex.png",
+    "item_skins_dir": "custom/skins/vex",
+    "item_icons_dir": "custom/icons/vex",
+    "item_entity_dir": "entities/vex.json",
+    "item_entity_texture": [
+      "vex/vex.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Villager",
+    "item_icon": "icon/villager.png",
+    "item_texture": "icon/villager.png",
+    "item_skins_dir": "custom/skins/villager",
+    "item_icons_dir": "custom/icons/villager",
+    "item_entity_dir": "entities/villager.json",
+    "item_entity_texture": [
+      "villager/villager.png",
+      "villager2/villager.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Vindicator",
+    "item_icon": "icon/vindicator.png",
+    "item_texture": "icon/vindicator.png",
+    "item_skins_dir": "custom/skins/vindication_illager",
+    "item_icons_dir": "custom/icons/vindication_illager",
+    "item_entity_dir": "entities/vindicator.json",
+    "item_entity_texture": [
+      "vindicator.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Whale_1_9",
+    "item_icon": "icon/whale.png",
+    "item_texture": "icon/whale.png",
+    "item_skins_dir": "custom/skins/whale",
+    "item_icons_dir": "custom/icons/whale",
+    "item_entity_dir": "entities/whale_1_9.json",
+    "item_skin": "",
+    "premium": true
+  },
+  {
+    "item_name": "Witch",
+    "item_icon": "icon/witch.png",
+    "item_texture": "icon/witch.png",
+    "item_skins_dir": "custom/skins/witch",
+    "item_icons_dir": "custom/icons/witch",
+    "item_entity_dir": "entities/witch.json",
+    "item_entity_texture": [
+      "witch.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Wither",
+    "item_icon": "icon/wither.png",
+    "item_texture": "icon/wither.png",
+    "item_skins_dir": "custom/skins/wither",
+    "item_icons_dir": "custom/icons/wither",
+    "item_entity_dir": "entities/wither.json",
+    "item_entity_texture": [
+      "wither_boss/wither.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Wither Skeleton",
+    "item_icon": "icon/wither_skeleton.png",
+    "item_texture": "icon/wither_skeleton.png",
+    "item_skins_dir": "custom/skins/skeleton",
+    "item_icons_dir": "custom/icons/skeleton",
+    "item_entity_dir": "entities/wither_skeleton.json",
+    "item_entity_texture": [
+      "skeleton/wither_skeleton.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Wolf",
+    "item_icon": "icon/wolf.png",
+    "item_texture": "icon/wolf.png",
+    "item_skins_dir": "custom/skins/wolf",
+    "item_icons_dir": "custom/icons/wolf",
+    "item_entity_dir": "entities/wolf.json",
+    "item_entity_texture": [
+      "wolf/wolf.png",
+      "wolf/wolf_angry.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Zombie",
+    "item_icon": "icon/zombie.png",
+    "item_texture": "icon/zombie.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "entities/zombie.json",
+    "item_entity_texture": [
+      "zombie/zombie.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Zombie horse",
+    "item_icon": "icon/zombie_horse.png",
+    "item_texture": "icon/zombie_horse.png",
+    "item_skins_dir": "custom/skins/horse2",
+    "item_icons_dir": "custom/icons/horse2",
+    "item_entity_dir": "entities/zombie_horse.json",
+    "item_entity_texture": [
+      "horse/horse_zombie.png",
+      "horse2/horse_zombie.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Zombie pigman",
+    "item_icon": "icon/zombie_pigman.png",
+    "item_texture": "icon/zombie_pigman.png",
+    "item_skins_dir": "custom/skins/piglin",
+    "item_icons_dir": "custom/icons/piglin",
+    "item_entity_dir": "entities/zombie_pigman.json",
+    "item_entity_texture": [
+      "piglin/zombie_piglin.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Zombie Villager",
+    "item_icon": "icon/zombie_villager.png",
+    "item_texture": "icon/zombie_villager.png",
+    "item_skins_dir": "custom/skins/zombie_villager",
+    "item_icons_dir": "custom/icons/zombie_villager",
+    "item_entity_dir": "entities/zombie_villager.json",
+    "item_entity_texture": [
+      "zombie_villager/zombie_villager.png",
+      "zombie_villager2/zombie-villager.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Netherite_armor",
+    "item_icon": "items_face/armor/netherite/netherite_chestplate.png",
+    "item_texture": "items_face/armor/netherite/netherite_chestplate.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "armor/netherite_1.png",
+      "armor/netherite_2.png",
+      "items/netherite_boots.png",
+      "items/netherite_chestplate.png",
+      "items/netherite_helmet.png",
+      "items/netherite_leggings.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Chainmail_armor",
+    "item_icon": "items_face/armor/chainmail/chainmail_chestplate.png",
+    "item_texture": "items_face/armor/chainmail/chainmail_chestplate.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "armor/chain_1.png",
+      "armor/chain_2.png",
+      "items/chainmail_boots.png",
+      "items/chainmail_chestplate.png",
+      "items/chainmail_helmet.png",
+      "items/chainmail_leggings.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Diamond_armor",
+    "item_icon": "items_face/armor/diamond/diamond_chestplate.png",
+    "item_texture": "items_face/armor/diamond/diamond_chestplate.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "armor/diamond_1.png",
+      "armor/diamond_2.png",
+      "items/diamond_boots.png",
+      "items/diamond_chestplate.png",
+      "items/diamond_helmet.png",
+      "items/diamond_leggings.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Gold_armor",
+    "item_icon": "items_face/armor/gold/gold_chestplate.png",
+    "item_texture": "items_face/armor/gold/gold_chestplate.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "armor/gold_1.png",
+      "armor/gold_2.png",
+      "items/gold_boots.png",
+      "items/gold_chestplate.png",
+      "items/gold_helmet.png",
+      "items/gold_leggings.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Iron_armor",
+    "item_icon": "items_face/armor/iron/iron_chestplate.png",
+    "item_texture": "items_face/armor/iron/iron_chestplate.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "armor/iron_1.png",
+      "armor/iron_2.png",
+      "items/iron_boots.png",
+      "items/iron_chestplate.png",
+      "items/iron_leggings.png",
+      "items/iron_helmet.png"
+    ],
+    "item_skin": "",
+    "premium": false
+  },
+  {
+    "item_name": "Leather_armor",
+    "item_icon": "items_face/armor/leather/leather_chestplate.png",
+    "item_texture": "items_face/armor/leather/leather_chestplate.png",
+    "item_skins_dir": "custom/skins/zombie",
+    "item_icons_dir": "custom/icons/zombie",
+    "item_entity_dir": "",
+    "item_entity_texture": [
+      "armor/leather_1.tga",
+      "armor/leather_2.tga",
+      "items/leather_boots.tga",
+      "items/leather_chestplate.png",
+      "items/leather_helmet.tga",
+      "items/leather_leggings.tga"
+    ],
+    "item_skin": "",
+    "premium": false
+  }
+]

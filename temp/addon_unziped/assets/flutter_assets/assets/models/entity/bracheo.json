@@ -1,0 +1,145 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bracheo",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 12,
+				"visible_bounds_height": 8.5,
+				"visible_bounds_offset": [0, 3.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 36, 2],
+					"cubes": [
+						{"origin": [-8, 20, 2], "size": [16, 22, 16], "uv": [0, 48]}
+					]
+				},
+				{
+					"name": "Chest",
+					"parent": "Body",
+					"pivot": [0, 36, -6],
+					"cubes": [
+						{"origin": [-10, 20, -16], "size": [20, 30, 18], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Neck",
+					"parent": "Body",
+					"pivot": [0, 43, -15],
+					"cubes": [
+						{"origin": [-4, 43, -21], "size": [8, 18, 12], "uv": [76, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "Neck",
+					"pivot": [0, 61, -15],
+					"cubes": [
+						{"origin": [-3, 61, -20], "size": [6, 14, 10], "uv": [104, 100]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 75, -14],
+					"cubes": [
+						{"origin": [-2, 75, -18], "size": [4, 14, 7], "uv": [68, 62]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone2",
+					"pivot": [0, 89, -14],
+					"cubes": [
+						{"origin": [-2, 89, -18], "size": [4, 10, 7], "uv": [24, 111]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "bone3",
+					"pivot": [0, 99, -13],
+					"cubes": [
+						{"origin": [-3, 96, -21], "size": [6, 8, 8], "uv": [116, 0]},
+						{"origin": [-2, 98, -29], "size": [4, 14, 12], "uv": [102, 50]}
+					]
+				},
+				{
+					"name": "Lowerjaw",
+					"parent": "Head",
+					"pivot": [0, 98, -21],
+					"cubes": [
+						{"origin": [-2, 96, -29], "size": [4, 2, 8], "uv": [58, 0]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Body",
+					"pivot": [0, 31, 18],
+					"cubes": [
+						{"origin": [-5, 24, 18], "size": [10, 14, 16], "uv": [60, 32]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "Tail",
+					"pivot": [0, 31, 34],
+					"cubes": [
+						{"origin": [-3, 26, 34], "size": [6, 10, 16], "uv": [74, 74]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "bone4",
+					"pivot": [0, 31, 50],
+					"cubes": [
+						{"origin": [-2, 28, 50], "size": [4, 6, 16], "uv": [0, 86]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone5",
+					"pivot": [0, 31, 66],
+					"cubes": [
+						{"origin": [-1, 29, 66], "size": [2, 4, 22], "uv": [42, 64]}
+					]
+				},
+				{
+					"name": "Rarm",
+					"parent": "Body",
+					"pivot": [-5, 20, -10],
+					"cubes": [
+						{"origin": [-9, 0, -14], "size": [8, 20, 8], "uv": [72, 100]}
+					]
+				},
+				{
+					"name": "Larm",
+					"parent": "Body",
+					"pivot": [5, 20, -10],
+					"cubes": [
+						{"origin": [1, 0, -14], "size": [8, 20, 8], "uv": [40, 90]}
+					]
+				},
+				{
+					"name": "Rleg",
+					"parent": "Body",
+					"pivot": [-4, 20, 13],
+					"cubes": [
+						{"origin": [-7, 0, 10], "size": [6, 20, 6], "uv": [0, 108]}
+					]
+				},
+				{
+					"name": "Lleg",
+					"parent": "Body",
+					"pivot": [4, 20, 13],
+					"cubes": [
+						{"origin": [1, 0, 10], "size": [6, 20, 6], "uv": [112, 24]}
+					]
+				}
+			]
+		}
+	]
+}

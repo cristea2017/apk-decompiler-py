@@ -1,0 +1,72 @@
+{
+  "geometry.frog": {
+    "texturewidth": 48,
+    "textureheight": 48,
+    "visible_bounds_width": 1,
+    "visible_bounds_height": 1,
+    "visible_bounds_offset": [0, 0.5, 0],
+    "bones": [
+      {
+        "name": "rearFootLeft",
+        "pivot": [-3, 6.5, 3.7],
+        "mirror": true,
+        "cubes": [
+          {"origin": [-4, 0, 0], "size": [2, 1, 7], "uv": [0, 19], "mirror": false}
+        ]
+      },
+      {
+        "name": "rearFootRight",
+        "pivot": [3, 6.5, 3.7],
+        "mirror": true,
+        "cubes": [
+          {"origin": [2, 0, 0], "size": [2, 1, 7], "uv": [18, 19], "mirror": false}
+        ]
+      },
+      {
+        "name": "haunchLeft",
+        "pivot": [-3, 6.5, 3.7],
+        "rotation": [-20, 0, 0],
+        "mirror": true,
+        "cubes": [
+          {"origin": [-4, 2.5, 3.7], "size": [2, 4, 5], "uv": [0, 27], "mirror": false}
+        ]
+      },
+      {
+        "name": "haunchRight",
+        "pivot": [3, 6.5, 3.7],
+        "rotation": [-20, 0, 0],
+        "mirror": true,
+        "cubes": [
+          {"origin": [2, 2.5, 3.7], "size": [2, 4, 5], "uv": [14, 27], "mirror": false}
+        ]
+      },
+      {
+        "name": "body",
+        "pivot": [0, 5, 8],
+        "rotation": [-20, 0, 0],
+        "mirror": true,
+        "cubes": [
+          {"origin": [-3, 2, -6], "size": [6, 5, 14], "uv": [0, 0], "mirror": false}
+        ]
+      },
+      {
+        "name": "frontLegLeft",
+        "pivot": [-3, 7, -1],
+        "rotation": [-10, 0, 0],
+        "mirror": true,
+        "cubes": [
+          {"origin": [-4, 0, -2], "size": [2, 7, 2], "uv": [28, 27], "mirror": false}
+        ]
+      },
+      {
+        "name": "frontLegRight",
+        "pivot": [3, 7, -1],
+        "rotation": [-10, 0, 0],
+        "mirror": true,
+        "cubes": [
+          {"origin": [2, 0, -2], "size": [2, 7, 2], "uv": [0, 36], "mirror": false}
+        ]
+      }
+    ]
+  }
+}

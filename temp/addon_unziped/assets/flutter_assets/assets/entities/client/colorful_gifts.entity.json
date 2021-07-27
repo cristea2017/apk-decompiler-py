@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pa:colorful_gifts",
+      "materials": { "default": "televisor" },
+      "textures": {
+        "blue": "textures/entity/furni/colorful_gifts"
+      },
+      "geometry": {
+        "default": "geometry.colorful_gifts"
+      },
+      "render_controllers": [ "controller.render.translucence" ],
+      "spawn_egg": {
+        "texture": "colorful_gifts",
+        "texture_index": 0
+      }
+    }
+  }
+}

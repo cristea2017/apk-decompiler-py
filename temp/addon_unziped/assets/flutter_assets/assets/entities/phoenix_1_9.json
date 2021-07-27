@@ -1,0 +1,173 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:phoenix",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:pig_transform": {
+        "minecraft:transformation": {
+          "into": "pa:thunder_phoenix"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "monster",
+          "phoenix",
+          "bird"
+        ]
+      },
+      "minecraft:nameable": {},
+      "minecraft:health": {
+        "value": 25,
+        "max": 25
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:attack": {
+        "damage": 6
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 0.5
+      },
+      "minecraft:movement": {
+        "value": 2
+      },
+      "minecraft:movement.glide": {
+        "start_speed": 0.1,
+        "speed_when_turning": 0.2
+      },
+      "minecraft:follow_range": {
+        "value": 64,
+        "max": 64
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 0,
+        "max_dist": 16.0,
+        "ignore_visibility": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "ocelot"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "cat"
+                }
+              ],
+              "other_with_families": []
+            },
+            "max_dist": 16,
+            "walk_speed_multiplier": 1,
+            "sprint_speed_multiplier": 1
+          }
+        ]
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "within_radius": 64,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "other_with_families": [
+                "phantom",
+                "player",
+                "villager"
+              ]
+            },
+            "max_dist": 64
+          }
+        ],
+        "must_see": false,
+        "must_see_forget_duration": 0.5,
+        "scan_interval": 20,
+        "target_search_height": 80.0
+      },
+      "minecraft:behavior.swoop_attack": {
+        "priority": 2,
+        "delay_range": [
+          10.0,
+          20.0
+        ]
+      },
+      "minecraft:behavior.circle_around_anchor": {
+        "priority": 3,
+        "radius_range": [
+          5.0,
+          15.0
+        ],
+        "radius_change_chance": 250,
+        "height_above_target_range": [
+          20.0,
+          40.0
+        ],
+        "height_offset_range": [
+          -4.0,
+          5.0
+        ],
+        "height_change_chance": 350,
+        "goal_radius": 1.0
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:hurt_when_wet": {
+        "value": true
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:behavior.ranged_attack": {
+        "attack_interval_min": 1,
+        "attack_interval_max": 3,
+        "attack_radius": 15,
+        "burst_shots": 1,
+        "burst_interval": 0.5
+      },
+      "minecraft:shooter": {
+        "type": "Small Fireball",
+        "def": "minecraft:small_fireball"
+      },
+      "minecraft:transformed": {
+        "minecraft:transformation": {
+          "into": "pa:phoenix"
+        }
+      },
+      "minecraft:damage_sensor": {
+        "on_damage": {
+          "filters": {
+            "test": "is_family",
+            "subject": "other",
+            "value": "lightning"
+          },
+          "event": "become_zombie"
+        },
+        "deals_damage": true
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/pa:phoenix.json"
+      }
+    },
+    "events": {
+      "become_zombie": {
+        "remove": {},
+        "add": {
+          "component_groups": [
+            "minecraft:pig_transform"
+          ]
+        }
+      }
+    }
+  }
+}

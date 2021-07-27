@@ -1,0 +1,117 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:colorful_gifts",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:shulker_white": {
+        "minecraft:variant": {
+          "value": 4
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "furnicraft",
+          "player"
+        ]
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:movement": {
+        "value": 0,
+        "max": 0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:fall_damage": {
+        "value": 0
+      },
+      "minecraft:scale": {
+        "value": 1
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "other",
+                  "domain": "hand",
+                  "value": "dye:12"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                },
+                {
+                  "test": "has_ability",
+                  "subject": "other",
+                  "value": "instabuild"
+                }
+              ]
+            },
+            "event": "minecraft:turn_white"
+          },
+          "use_item": true
+        }
+      ],
+      "minecraft:physics": {},
+      "minecraft:navigation.walk": {},
+      "minecraft:item_controllable": {
+        "control_items": "diamond_hoe"
+      },
+      "minecraft:behavior.controlled_by_player": {
+        "priority": 0
+      },
+      "minecraft:inventory": {
+        "container_type": "minecart_chest",
+        "inventory_size": 27,
+        "can_be_siphoned_from": true
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 6,
+            "add": {
+              "component_groups": [
+                "minecraft:shulker_white"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:turn_white": {
+        "add": {
+          "component_groups": [
+            "minecraft:shulker_white"
+          ]
+        }
+      }
+    }
+  }
+}
